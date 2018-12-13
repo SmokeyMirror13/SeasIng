@@ -330,8 +330,9 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .scroll
  .social .menu li a[href*=youtube]:before {
      content: "\f16a" 
 }
- .social .menu li a[href*="plus.google.com"]:before {
-     content: "\f0d5" 
+ 
+ .social .menu li a[href*="snapchat"]:before {
+     content: "\f2ab" 
 }
  .social .menu li a[href*=flickr]:before {
      content: "\f16e" 
@@ -2301,7 +2302,7 @@ kbd {
      align-self: center 
 }
  .menu-logo img {
-     width: 100px 
+     width: 150px 
 }
  .menu.credits-social {
      list-style: none;
