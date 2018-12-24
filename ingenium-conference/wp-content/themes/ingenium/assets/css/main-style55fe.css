@@ -15,7 +15,7 @@ body.color-scheme-1, body.color-scheme-1 .preloader {
     background-color: rgb(237, 238, 240);
     color: rgb(119, 113, 113);
 }
-body.surge-light, body.surge-light .preloader {
+body.ingenium-light, body.ingenium-light .preloader {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
@@ -25,7 +25,7 @@ body, input, select, textarea, p {
 h1, h2, h3, h4, h5 {
     font-family: Oswald, Helvetica, Arial, sans-serif;
 }
-.surge-light h1, .surge-light h2, .surge-light h3, .surge-light h4, .surge-light h5, .surge-light h6, .surge-light p {
+.ingenium-light h1, .ingenium-light h2, .ingenium-light h3, .ingenium-light h4, .ingenium-light h5, .ingenium-light h6, .ingenium-light p {
     color: rgb(0, 0, 0);
 }
 body, input, select, textarea, p {
@@ -50,7 +50,7 @@ label {
  .testimonials-list, a.eg-grant-element-1, a.eg-grant-element-2 {
      color: #fff 
 }
- .surge-light {
+ .ingenium-light {
      font-family: Montserrat, Helvetica, Arial, sans-serif;
      font-size: 16px;
      line-height: 30px 
@@ -553,7 +553,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .scroll
  .schedule-table h2 {
      font-size: 18px 
 }
- .surge-light .schedule-table p {
+ .ingenium-light .schedule-table p {
      background: #fff;
      box-shadow: .45em 0 0 #fff, -.45em 0 0 #fff 
 }
@@ -630,7 +630,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .scroll
     border-top-color: rgb(237, 238, 240);
 }
 
- .surge-light .spinner:before{
+ .ingenium-light .spinner:before{
     border: 2px solid rgb(233, 67, 99);
     border-top-color: rgb(255, 255, 255);
 }
@@ -1104,7 +1104,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"], .scroll
 }
  
  
- .surge-light .footer .menu li:before, .surge-light .footer h1, .surge-light .footer h2, .surge-light .footer h3, .surge-light .footer h4, .surge-light .footer h5, .surge-light .footer h6, .surge-light .footer p {
+ .ingenium-light .footer .menu li:before, .ingenium-light .footer h1, .ingenium-light .footer h2, .ingenium-light .footer h3, .ingenium-light .footer h4, .ingenium-light .footer h5, .ingenium-light .footer h6, .ingenium-light .footer p {
      color: #fff 
 }
 
@@ -1138,7 +1138,7 @@ footer .edit-link{
 footer.site-footer {
     text-align: center;
 }
-.surge-light footer.site-footer {
+.ingenium-light footer.site-footer {
     background: rgb(0, 0, 0) ;
 }
  
@@ -1160,7 +1160,7 @@ footer.site-footer {
      display: inline-block;
      margin: 15px 
 }
- .surge-light .wpcf7 input[type=submit] {
+ .ingenium-light .wpcf7 input[type=submit] {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     border: 1px solid rgb(0, 0, 0);
@@ -1192,7 +1192,7 @@ footer.site-footer {
      font-size: 30px;
      font-weight: 400 
 }
- .surge-light .top-head {
+ .ingenium-light .top-head {
      color: #000 
 }
  .fs-reach-map div {
@@ -1216,7 +1216,7 @@ footer.site-footer {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
- .surge-light .wpb_gmaps_widget .wpb_wrapper {
+ .ingenium-light .wpb_gmaps_widget .wpb_wrapper {
      padding: 0!important;
      mix-blend-mode: normal 
 }
@@ -1268,7 +1268,7 @@ footer.site-footer {
     text-transform: uppercase;
  
 }
- .surge-dark .entry-meta {
+ .ingenium-dark .entry-meta {
  
          border-left: 4px solid #f00;
     padding-left: 5px;
@@ -1284,7 +1284,7 @@ footer.site-footer {
     background-color: #081d31;
     margin-bottom: 35px;
 }
-.surge-light .sticky {
+.ingenium-light .sticky {
  
     background-color: rgb(249, 249, 249);
  
@@ -1482,8 +1482,8 @@ blockquote.side-line p{
  .share span {
      padding: 5px 
 }
-.surge-light .share-options a:link,.surge-light .share-options a:visited,
-.surge-light .categories-links a:link,.surge-light .categories-links a:visited{
+.ingenium-light .share-options a:link,.ingenium-light .share-options a:visited,
+.ingenium-light .categories-links a:link,.ingenium-light .categories-links a:visited{
     color: #000000;
 }
  .entry-bottom {
@@ -1580,10 +1580,10 @@ blockquote.side-line p{
      background: rgb(203, 55, 66);
      padding: 0 20px 0 15px 
 }
- .surge-light.woocommerce ul.products li.product>.item, .surge-light.woocommerce-page ul.products li.product>.item {
+ .ingenium-light.woocommerce ul.products li.product>.item, .ingenium-light.woocommerce-page ul.products li.product>.item {
      background: #efefef 
 }
- .surge-light.woocommerce span.onsale {
+ .ingenium-light.woocommerce span.onsale {
      background-color: #09f 
 }
  .woocommerce ul.products li.product a {
@@ -1648,19 +1648,19 @@ blockquote.side-line p{
  .woocommerce div.product form.cart div.quantity {
      margin: 10px 4px 0 0 
 }
- .surge-light .woocommerce-error, ..color-scheme-1 .woocommerce-error, .surge-light .woocommerce-info, ..color-scheme-1 .woocommerce-info, .surge-light .woocommerce-message, .color-scheme-1 .woocommerce-message {
+ .ingenium-light .woocommerce-error, .color-scheme-1 .woocommerce-error, .ingenium-light .woocommerce-info, .color-scheme-1 .woocommerce-info, .ingenium-light .woocommerce-message, .color-scheme-1 .woocommerce-message {
      background-color: #f7f6f7;
      color: #515151 
 }
- .surge-light .select2-container--default .select2-selection--single, .color-scheme-1 .select2-container--default .select2-selection--single, .surge-light .select2-dropdown , .color-scheme-1 .select2-dropdown {
+ .ingenium-light .select2-container--default .select2-selection--single, .color-scheme-1 .select2-container--default .select2-selection--single, .ingenium-light .select2-dropdown , .color-scheme-1 .select2-dropdown {
      background-color: #fff;
      border: 1px solid #aaa 
 }
- .surge-light .woocommerce-error, .color-scheme-1 .woocommerce-error, .surge-light .woocommerce-info, .color-scheme-1 .woocommerce-info, .surge-light .woocommerce-message , .color-scheme-1 .woocommerce-message {
+ .ingenium-light .woocommerce-error, .color-scheme-1 .woocommerce-error, .ingenium-light .woocommerce-info, .color-scheme-1 .woocommerce-info, .ingenium-light .woocommerce-message , .color-scheme-1 .woocommerce-message {
      color: rgb(255, 255, 255);
      background-color: rgba(27, 27, 27, 0.76);
 }
- .surge-light.woocommerce ul.products li.product>.item, .color-scheme-1.woocommerce ul.products li.product>.item, .surge-light.woocommerce-page ul.products li.product>.item, .color-scheme-1.woocommerce-page ul.products li.product>.item {
+ .ingenium-light.woocommerce ul.products li.product>.item, .color-scheme-1.woocommerce ul.products li.product>.item, .ingenium-light.woocommerce-page ul.products li.product>.item, .color-scheme-1.woocommerce-page ul.products li.product>.item {
      background: rgb(239, 239, 239);
 } 
 
@@ -1676,27 +1676,27 @@ blockquote.side-line p{
     color: #e94363;
 }
 
- .woocommerce.surge-light a.button.add_to_cart_button.product_type_simple:after , .woocommerce.color-scheme-1 a.button.add_to_cart_button.product_type_simple:after {
+ .woocommerce.ingenium-light a.button.add_to_cart_button.product_type_simple:after , .woocommerce.color-scheme-1 a.button.add_to_cart_button.product_type_simple:after {
      content: "\f07a";
      color: #ffffff;
 }
  
- .surge-light input:focus, .color-scheme-1 input:focus, .surge-light textarea:focus, .color-scheme-1 textarea:focus,.color-scheme-1 textarea,.surge-light textarea{
+ .ingenium-light input:focus, .color-scheme-1 input:focus, .ingenium-light textarea:focus, .color-scheme-1 textarea:focus,.color-scheme-1 textarea,.ingenium-light textarea{
      background-color: transparent !important;
 }
 
-.surge-light.woocommerce ul.products li.product .title-description a,
+.ingenium-light.woocommerce ul.products li.product .title-description a,
 .color-scheme-1.woocommerce ul.products li.product .title-description a{
 	color:#535965;
 }
 
 
-.surge-light  ul.products li.product .title-description a,
+.ingenium-light  ul.products li.product .title-description a,
 .color-scheme-1  ul.products li.product .title-description a{
 	color:#535965;
 }
  
- .surge-light #add_payment_method #payment, .color-scheme-1 #add_payment_method #payment, .surge-light .woocommerce-cart #payment, .color-scheme-1 .woocommerce-cart #payment, .surge-light .woocommerce-checkout #payment, .color-scheme-1 .woocommerce-checkout #payment {
+ .ingenium-light #add_payment_method #payment, .color-scheme-1 #add_payment_method #payment, .ingenium-light .woocommerce-cart #payment, .color-scheme-1 .woocommerce-cart #payment, .ingenium-light .woocommerce-checkout #payment, .color-scheme-1 .woocommerce-checkout #payment {
      background: #ece9eb;
      border-radius: 5px;
      margin-bottom: 70px;
@@ -1741,7 +1741,7 @@ h4.price {
     z-index: 99999;
     color: #cb3742;
 }
-.surge-light .woocommerce .item-cart {
+.ingenium-light .woocommerce .item-cart {
   
     color: #e94363;
 }
@@ -1756,14 +1756,14 @@ h4.price {
     background: #cb3742;
     padding: 5px;
 }
- .surge-light .woocommerce-header .site-main{
+ .ingenium-light .woocommerce-header .site-main{
      background: rgba(0, 0, 0, 0);
      min-height: auto;
 }
- .surge-light .woocommerce-header .content-area {
+ .ingenium-light .woocommerce-header .content-area {
      background: rgba(0, 0, 0, 0);
 }
- .surge-light .woocommerce-header .content-area {
+ .ingenium-light .woocommerce-header .content-area {
      padding-top: 0;
 }
  .shop-home .woocommerce ul.products li.product>.item,.shop-home .woocommerce-page ul.products li.product>.item {
@@ -1885,7 +1885,7 @@ code {
      padding: 1.6em;
      color: #fff;
 }
-.surge-light pre {
+.ingenium-light pre {
     background: rgb(49, 49, 49);
 }
 .color-scheme-1 pre {
@@ -1898,7 +1898,7 @@ code {
  small, sub, sup {
      font-size: 75% 
 }
- .surge-light .conference-about-desc p, .surge-light .conference-counter-head, .surge-light .conference-founder-details h4, .surge-light .conference-head-caption, .surge-light .conference-home-subtext, .surge-light .conference-pageable-content p, .surge-light .conference-quote-content h2, .surge-light .conference-schedule-box p, .surge-light .conference-title-caption, .surge-light .speaker-desc p {
+ .ingenium-light .conference-about-desc p, .ingenium-light .conference-counter-head, .ingenium-light .conference-founder-details h4, .ingenium-light .conference-head-caption, .ingenium-light .conference-home-subtext, .ingenium-light .conference-pageable-content p, .ingenium-light .conference-quote-content h2, .ingenium-light .conference-schedule-box p, .ingenium-light .conference-title-caption, .ingenium-light .speaker-desc p {
      font-family: 'Libre Baskerville', serif 
 }
  abbr, acronym {
@@ -1909,7 +1909,7 @@ code {
      background: #22262a;
      text-decoration: none 
 }
-.surge-light ins,  .surge-light mark {
+.ingenium-light ins,  .ingenium-light mark {
     background: rgb(212, 212, 212);
     text-decoration: none;
 }
@@ -1944,7 +1944,7 @@ kbd {
      border: none;
      background-color: #f7f7f7 
 }
- .surge-light input[type=color], .surge-light input[type=date], .surge-light input[type=datetime-local], .surge-light input[type=datetime], .surge-light input[type=email], .surge-light input[type=month], .surge-light input[type=number], .surge-light input[type=password], .surge-light input[type=search], .surge-light input[type=tel], .surge-light input[type=text], .surge-light input[type=time], .surge-light input[type=url], .surge-light input[type=week], .surge-light .comment-form input[type="text"], .surge-light select, .surge-light textarea, .color-scheme-1 input[type=color], .color-scheme-1 input[type=date], .color-scheme-1 input[type=datetime-local], .color-scheme-1 input[type=datetime], .color-scheme-1 input[type=email], .color-scheme-1 input[type=month], .color-scheme-1 input[type=number], .color-scheme-1 input[type=password], .color-scheme-1 input[type=search], .color-scheme-1 input[type=tel], .color-scheme-1 input[type=text], .color-scheme-1 input[type=time], .color-scheme-1 input[type=url], .color-scheme-1 input[type=week], .color-scheme-1 .comment-form input[type="text"], .color-scheme-1 select, .color-scheme-1 textarea{
+ .ingenium-light input[type=color], .ingenium-light input[type=date], .ingenium-light input[type=datetime-local], .ingenium-light input[type=datetime], .ingenium-light input[type=email], .ingenium-light input[type=month], .ingenium-light input[type=number], .ingenium-light input[type=password], .ingenium-light input[type=search], .ingenium-light input[type=tel], .ingenium-light input[type=text], .ingenium-light input[type=time], .ingenium-light input[type=url], .ingenium-light input[type=week], .ingenium-light .comment-form input[type="text"], .ingenium-light select, .ingenium-light textarea, .color-scheme-1 input[type=color], .color-scheme-1 input[type=date], .color-scheme-1 input[type=datetime-local], .color-scheme-1 input[type=datetime], .color-scheme-1 input[type=email], .color-scheme-1 input[type=month], .color-scheme-1 input[type=number], .color-scheme-1 input[type=password], .color-scheme-1 input[type=search], .color-scheme-1 input[type=tel], .color-scheme-1 input[type=text], .color-scheme-1 input[type=time], .color-scheme-1 input[type=url], .color-scheme-1 input[type=week], .color-scheme-1 .comment-form input[type="text"], .color-scheme-1 select, .color-scheme-1 textarea{
      color: #999;
      border: 1px solid #bbb;
      background-color: transparent;
@@ -2175,7 +2175,7 @@ kbd {
  #normal-menu.align-right ul ul {
      text-align: right 
 }
- .surge-light #normal-menu div:nth-of-type(2)>div>ul>li>ul::after {
+ .ingenium-light #normal-menu div:nth-of-type(2)>div>ul>li>ul::after {
      border-bottom-color: rgb(27, 27, 27);
 }
  #normal-menu.align-right div:nth-of-type(2)>div>ul>li>ul::after {
@@ -2258,11 +2258,11 @@ kbd {
      width: 100% 
 }
  .classic-menu .menu-wrapper {
-    width: 82%;
+    width: 100%;
     align-self: center;
     margin-left: 2%;
-    display: inline-block;
     float: left;
+    align-self: flex-start;
 }
  .classic-menu.sticky {
      padding: 0;
@@ -2280,7 +2280,7 @@ kbd {
  .classic-menu.sticky .container{
      max-width: 100%;
 }
- .surge-light .classic-menu.sticky {
+ .ingenium-light .classic-menu.sticky {
      background: rgb(27, 27, 27);
 }
  .classic-menu.sticky .container{
@@ -2288,21 +2288,22 @@ kbd {
          display: flex;
 }
  .classic-menu.sticky .menu-logo img {
-     width: 50px;
+     width: 100%;
      margin-left: 50px;
 }
  .classic-menu.sticky .menu {
      margin-right: 50px !important;
 }
  .menu-logo {
-     width: 16%;
+     width: 19%;
      min-height: 20px;
      float: left;
      display: inline-block;
-     align-self: center 
+     align-self: center;
+     align-self: flex-start; 
 }
  .menu-logo img {
-     width: 150px 
+     width: 100%; 
 }
  .menu.credits-social {
      list-style: none;
@@ -2341,7 +2342,8 @@ kbd {
      -moz-transition: background-color 1s linear;
      -o-transition: background-color 1s linear;
      -ms-transition: background-color 1s linear;
-     transition: background-color 1s linear 
+     transition: background-color 1s linear;
+     /* align-self: flex-start; */
 }
  #primary-menu.open, #primary-menu.open ul:first-child {
      background: rgba(6, 19, 35, 0.87);
@@ -2373,7 +2375,7 @@ kbd {
     border: none;
      }
  .color-scheme-1 #primary-menu.open ul:first-child {
-     background: rgba(216, 99, 111, 0.72);
+     background: rgba(216   , 99, 111, 0.72);
      height: 100%;
 }
  .color-scheme-1 #primary-menu.open,.color-scheme-1 #primary-menu.open ul:first-child ,.color-scheme-2 #primary-menu.open,.color-scheme-2 #primary-menu.open ul:first-child {
@@ -2412,7 +2414,7 @@ kbd {
      color: #ffffff;
      padding: 18px 25px 21px 
 }
- .surge-light .menu-list li>a {
+ .ingenium-light .menu-list li>a {
      color: #fff 
 }
  .menu-toogle-wrapper.close {
@@ -2496,7 +2498,7 @@ kbd {
      color: #fff;
     /* background: #0a203a;
     */
-     border-bottom: 1px solid #fff0a 
+     border-bottom: 1px solid #fff0a0;
 }
  
  .color-scheme-1 .menu-list li.menu-item-has-children>a:after {
@@ -2733,15 +2735,15 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
  .conference-quote-content:hover {
      opacity: 0 
 }
- .surge-light .conference-quote-content h2 {
+ .ingenium-light .conference-quote-content h2 {
      font-style: italic 
 }
- .surge-light .section-heading {
+ .ingenium-light .section-heading {
      font-weight: 700;
      letter-spacing: 1px;
      font-size: 43px;
 }
- .surge-light .conference-head-caption {
+ .ingenium-light .conference-head-caption {
      margin-bottom: 5px;
      font-style: italic 
 }
@@ -2805,7 +2807,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
  .conference-speakers .wpb_content_element {
      margin-bottom: 5px 
 }
- .surge-light .conference-counter-head {
+ .ingenium-light .conference-counter-head {
      font-style: italic 
 }
  .conference-single-line {
@@ -2831,7 +2833,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
      font-size: 24px;
      letter-spacing: 0 
 }
- .surge-light .conference-pageable-content p {
+ .ingenium-light .conference-pageable-content p {
      color: #fff 
 }
  .conference-founder-text p::first-letter {
@@ -2847,7 +2849,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
      color: #8e8e8e;
      line-height: 20px 
 }
- .surge-light .conference-founder-details h4 {
+ .ingenium-light .conference-founder-details h4 {
      color: #8e8e8e;
      font-style: italic 
 }
@@ -3034,63 +3036,63 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
 .schedule-2-last-box .vc_tta-container{
     margin-bottom: 0 !important;
 }
- .surge-light .schedule-table .schedule-time {
+ .ingenium-light .schedule-table .schedule-time {
      background: #e94362;
      display: inline;
      padding: 10px;
      color: #FFF;
      border-left: 5px solid #e94362 
 }
- .surge-light .schedule-table h2, .surge-light .schedule-table h3 {
+ .ingenium-light .schedule-table h2, .ingenium-light .schedule-table h3 {
      background: #fff;
      display: inline-block;
      box-shadow: .45em 0 0 #fff, -.45em 0 0 #fff;
      border-radius: 2px;
      font-size: 20px 
 }
- .surge-light .schedule-table p {
+ .ingenium-light .schedule-table p {
      font-style: italic 
 }
- .surge-light .schedule-table .wpb_wrapper {
+ .ingenium-light .schedule-table .wpb_wrapper {
      background: #FFF 
 }
- .surge-light .schedule-table .conference-event-time .wpb_wrapper {
+ .ingenium-light .schedule-table .conference-event-time .wpb_wrapper {
      background: 0 0 
 }
- .surge-light .header-tilte {
+ .ingenium-light .header-tilte {
      background-color:rgb(0, 0, 0); 
 }
 
- .surge-light .header-tilte {
+ .ingenium-light .header-tilte {
      margin-bottom: 0;
 }
- .surge-light .top-bar h1 {
+ .ingenium-light .top-bar h1 {
      color: #fff;
      line-height: initial;
      font-weight: 700 
 }
- .surge-light .page-title-full-wrapper {
+ .ingenium-light .page-title-full-wrapper {
      padding: 40px 0 80px 
 }
- .surge-light .blog-hr, .surge-light .page-hr {
+ .ingenium-light .blog-hr, .ingenium-light .page-hr {
      border: none 
 }
- .surge-light .schedule-table {
+ .ingenium-light .schedule-table {
      border-bottom: 2px solid #eaeaea 
 }
- .surge-light .schedule-table-container .vc_tta-tab>a {
+ .ingenium-light .schedule-table-container .vc_tta-tab>a {
      border-color: #000!important;
     background-color: #fff!important;
     color: #000!important;
     margin: 5px;
 }
- .surge-light .schedule-table-container .vc_tta-tab.vc_active>a {
+ .ingenium-light .schedule-table-container .vc_tta-tab.vc_active>a {
      background-color: #10171d!important;
     color: #fff!important;
     border: none;
     border-bottom: 2px solid #fff!important;
 }
- .surge-light #normal-menu ul ul li a{
+ .ingenium-light #normal-menu ul ul li a{
      background: #1b1b1b ;
      border-left: 2px solid rgb(47, 47, 47);
 }
@@ -3110,14 +3112,14 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
  
 
 
- .surge-light #primary-menu.open, .surge-light #primary-menu.open ul:first-child {
+ .ingenium-light #primary-menu.open, .ingenium-light #primary-menu.open ul:first-child {
      background-color: rgba(21, 21, 21, 0.87);
 }
- .surge-light .schedule-image-box h3 {
+ .ingenium-light .schedule-image-box h3 {
      background: #09f;
      color: #fff 
 }
- .surge-light .schedule-image-box img {
+ .ingenium-light .schedule-image-box img {
      -webkit-filter: grayscale(0);
      filter: grayscale(0);
      mix-blend-mode: normal 
@@ -3150,7 +3152,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
      -webkit-filter: grayscale(0%);
      filter: grayscale(0%);
 }
- .surge-light .speaker-image {
+ .ingenium-light .speaker-image {
      -webkit-filter: grayscale(100%);
      filter: grayscale(100%);
      background-position: top!important;
@@ -3158,7 +3160,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
      -moz-transition: all .3s ease;
      -o-transition: all .3s ease 
 }
- .surge-light .speaker-image:hover {
+ .ingenium-light .speaker-image:hover {
      -webkit-filter: grayscale(0);
      filter: grayscale(0) 
 }
@@ -3258,7 +3260,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
  .conference-faq .vc_toggle {
      padding-top: 1em 
 }
- .surge-light .ask-us-title-contact {
+ .ingenium-light .ask-us-title-contact {
      border: 1px solid #e94361;
      padding: 10px;
      border-radius: 2px;
@@ -3301,23 +3303,23 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
 .site-content.album-home-page{
     padding-bottom: 0 !important;
 }
- .surge-light .site-content {
+ .ingenium-light .site-content {
 }
- .surge-light .site-main {
+ .ingenium-light .site-main {
      min-height: 70vh 
 }
- .surge-light .particles-js-canvas-el {
+ .ingenium-light .particles-js-canvas-el {
      top: -390px 
 }
- .surge-light .content-area {
+ .ingenium-light .content-area {
      position: relative;
      padding-top: 70px 
 } 
- .surge-light .content-wrapper {
+ .ingenium-light .content-wrapper {
      position: relative;
      padding-top: 70px 
 }
- .surge-light .content-area.home-page {
+ .ingenium-light .content-area.home-page {
  
      position: relative;
      padding-top: 70px;
@@ -3629,9 +3631,9 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
 {
      color: #ffffff;
 }
- .surge-light .footer a:link, .surge-light .footer a:active, .surge-light .footer a:visited ,
- .surge-light.woocommerce.woocommerce .footer a:link, .surge-light.woocommerce.woocommerce .footer a:active, .surge-light.woocommerce.woocommerce .footer a:visited ,.surge-light.woocommerce.woocommerce .woocommerce-breadcrumb a:link,
-  .surge-light.woocommerce .woocommerce-breadcrumb a:active, .surge-light.woocommerce .woocommerce-breadcrumb a:visited
+ .ingenium-light .footer a:link, .ingenium-light .footer a:active, .ingenium-light .footer a:visited ,
+ .ingenium-light.woocommerce.woocommerce .footer a:link, .ingenium-light.woocommerce.woocommerce .footer a:active, .ingenium-light.woocommerce.woocommerce .footer a:visited ,.ingenium-light.woocommerce.woocommerce .woocommerce-breadcrumb a:link,
+  .ingenium-light.woocommerce .woocommerce-breadcrumb a:active, .ingenium-light.woocommerce .woocommerce-breadcrumb a:visited
 {
      color: #ffffff;
 }
@@ -4867,7 +4869,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
      font-weight: 100;
      border-radius: 0 !important;
 }
-.surge-light  .dotted-bg-pattern {
+.ingenium-light  .dotted-bg-pattern {
    
     background: linear-gradient(90deg,rgb(255, 255, 255) 38px,rgba(0, 0, 0, 0) 1%) 50%,linear-gradient(rgb(255, 255, 255) 38px,rgba(0, 0, 0, 0) 1%) 50%,rgba(0,0,0,.16);
     background-size: 40px 40px;
@@ -4915,7 +4917,7 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
          color:    rgb(10, 28, 49);
  
 }
-.surge-dark .glitch {
+.ingenium-dark .glitch {
     letter-spacing: 80px;
     text-indent: 80px;
  
@@ -5088,16 +5090,16 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 /* ----------- */
 
-.surge-light .glitch {
+.ingenium-light .glitch {
     color: rgb(16, 16, 16) !important;
 }
-.surge-light .glitch:before {
+.ingenium-light .glitch:before {
     text-shadow: 1px 0 #313131;
     top: 0;
     color: rgb(16, 16, 16) !important;
     background: rgb(0, 0, 0);
 }
-.surge-light .glitch:after {
+.ingenium-light .glitch:after {
     content: attr(data-text);
     position: absolute;
     left: 2px;
@@ -5145,7 +5147,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
     animation: noise-anim 2s infinite 
 }
 
-.music-glow-text.surge-dark .page-headline{
+.music-glow-text.ingenium-dark .page-headline{
  text-align: center;
   margin:0;
   padding:0;
@@ -5337,7 +5339,7 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
          background: rgb(10, 32, 58);
          top: 0;
     }
-     .surge-light .classic-menu.mobile-sticky,.color-scheme-1 .classic-menu.mobile-sticky{
+     .ingenium-light .classic-menu.mobile-sticky,.color-scheme-1 .classic-menu.mobile-sticky{
          background: rgb(27, 27, 27);
     }
      body .classic-menu {
@@ -5357,7 +5359,14 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
          -moz-transition: background-color 1s linear;
          -o-transition: background-color 1s linear;
          -ms-transition: background-color 1s linear;
-         transition: background-color 1s linear 
+         transition: background-color 1s linear;
+         
+    }
+    .header1{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    
     }
      #primary-menu.open {
          background-color: #031933;
@@ -5457,7 +5466,7 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
          display: inherit;
         background: #061f3e;
     } 
-     .surge-light #normal-menu div:nth-of-type(2)>div>ul>li.active-sub-menu>ul {
+     .ingenium-light #normal-menu div:nth-of-type(2)>div>ul>li.active-sub-menu>ul {
          display: inherit;
          background: rgba(0, 0, 0, 0.27);
     }
@@ -5506,7 +5515,7 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
      #normal-menu div:nth-of-type(2)>div>ul>li.has-sub>a::after, #normal-menu ul ul li.has-sub>a::after {
          display: none 
     }
-     .surge-light #normal-menu ul ul li a {
+     .ingenium-light #normal-menu ul ul li a {
     background: transparent;
 } 
     
@@ -5548,7 +5557,7 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
      .navigation li.menu-item-has-children li a:hover {
          background: 0 0!important 
     }
-     .surge-light .entry-header h1 {
+     .ingenium-light .entry-header h1 {
          font-size: 60px 
     }
      .shop-album-text h2,.shop-album-text p{
@@ -5638,7 +5647,7 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
          margin-top: 0!important;
          border-bottom-width: 0!important 
     }
-     .surge-light .entry-header h1 {
+     .ingenium-light .entry-header h1 {
          font-size: 40px 
     }
      .vc_row.wpb_row.vc_row-fluid.schedule-table.vc_row-o-content-middle.vc_row-flex:after {
@@ -5726,7 +5735,7 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
    
     font-size: 68px !important;
      }
-     .surge-dark .glitch {
+     .ingenium-dark .glitch {
     letter-spacing: 30px;
     text-indent: 30px;
 }
@@ -5769,7 +5778,7 @@ h1.music-glow-text,h2.music-glow-text,h3.music-glow-text,h4.music-glow-text,h5.m
           letter-spacing: normal;
     text-indent: initial;
      }
-     .surge-dark .glitch {
+     .ingenium-dark .glitch {
     letter-spacing: normal;
     text-indent: initial;
      }

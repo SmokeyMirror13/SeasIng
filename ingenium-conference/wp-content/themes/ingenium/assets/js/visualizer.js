@@ -1,4 +1,4 @@
-//Surge Theme - audio visualizer
+//Ingenium Theme - audio visualizer
 if (jQuery("#album-visualiser").length) {
     var pieces, radius, fft, mapMouseX, mapMouseY;
     var bgColor = "#0c0f27";
