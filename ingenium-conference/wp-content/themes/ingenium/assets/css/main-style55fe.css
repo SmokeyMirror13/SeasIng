@@ -2617,6 +2617,14 @@ a:link.carousel-control-next  ,a:link.carousel-control-prev {
      font-size: 17px;
      text-align: center 
 }
+.carousel-item-updates{
+     background: center center no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover 
+ }
+
  .carousel-item {
      height: 100%;
      min-height: 300px;
