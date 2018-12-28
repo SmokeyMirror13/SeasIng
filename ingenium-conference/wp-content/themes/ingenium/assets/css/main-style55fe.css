@@ -1841,8 +1841,8 @@ h4.price {
      text-transform: uppercase 
 }
  .button:hover, button:hover, input:hover[type=button], input:hover[type=reset], input:hover[type=submit] {
-     background-color: #1b273d;
-     color: #fff 
+    background-color: #7a2f6a; 
+    color: #fff;
 }
  cite, dfn, em, i {
      font-style: italic 

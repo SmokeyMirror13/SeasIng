@@ -30,7 +30,7 @@ p{
     z-index: 10000;
     bottom: 0px;
     width: 100%;
-    background-color: #003185;
+    background-color: #7a2f6a;
     padding: 5px;
 }
 .menu_bar{
@@ -78,10 +78,7 @@ p{
     margin-right: 6px;
     vertical-align: middle;
 }
-.menu_bar .left-side a:hover {
-    color: #0070c2;
-    border-bottom: 3px solid;
-}
+
 .menu_bar .left-side a {
     padding: 0 6px;
     color: white;
