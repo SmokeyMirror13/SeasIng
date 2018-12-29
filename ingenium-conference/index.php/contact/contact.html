@@ -403,16 +403,19 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     display: block;
 }
 .mySlides{
-    max-width: 1000px;
+    max-width: 95%;
     display: grid;
     height: auto;
-    margin: 15px auto 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 440px;
-    grid-gap: 40px;
+    margin: 10px auto 20px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 20px;
 }
 .container-1 .mySlides .card{
     position: relative;
+    width: 300px;
+    height: 440px;
+    margin: 0 auto;
     background: #000;
     overflow: hidden;
     border-radius: 10px;
@@ -536,7 +539,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: black;
+  color: black !important;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -555,6 +558,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: #fff;
 }
 </style>
     <div class="container-1"  align="center">
@@ -677,8 +681,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     </div>
  
         </div>
-            <p class="prev" onclick="plusSlides(-1)"><font color="white"><i class="fas fa-angle-left"></i></font></p>
-  <p class="next" onclick="plusSlides(1)"><font color="white"><i class="fas fa-angle-right"></i></p>
+            <p class="prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></p>
+  <p class="next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></p>
         </div>
    <script>
     var slideIndex = 1;
