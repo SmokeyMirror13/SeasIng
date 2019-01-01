@@ -305,7 +305,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
       </div> -->
       <div id="page" class="site">
             <div class="dotted-bg-pattern"  data-end="background-position:0% 70%;" data-0="background-position:0% 0%;"  ></div>
-                  <div class="header-tilte" style="background-image: url('../../../ingenium/wp-content/uploads/2018/02/contact.jpg')">
+                  <div class="header-tilte" style="background-image: url('../../../ingenium-data/images/contactus.jpg')">
             <header id="masthead" class="site-header common-header">
                     
           
@@ -314,19 +314,18 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                                <div class="menu-logo">
                                   <img src='../../../ingenium-data/images/mainlogo4.png' alt='logo'/>               </div>
                                <div class="menu-wrapper">
-                                    <nav id="normal-menu" >
-                                            <div  >
-                                               <div class="primary-menu"><ul id="primary-menu" class="menu">
-                           <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../home-one/index.html">Home</a></li>
-                           
-                           <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html">Workshops</a></li>
-                           <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html">Competitions</a></li>
-                       <li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-798 current_page_item menu-item-3905"><a href="../sponsors/index.html">Sponsors</a></li>
-                       <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../gallery/wowslider.html">Gallery</a></li>
-                           <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/index.html">Contact Us</a></li>
-                           </ul></div> 
-                                            </div>
-                                         </nav>
+                                                    <nav id="normal-menu" >
+                                     <div  >
+                                        <div class="primary-menu"><ul id="primary-menu" class="menu">
+                        <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../home-one/home.html">Home</a></li>                
+                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html">Workshops</a></li>
+                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html">Competitions</a></li>
+                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../gallery/gallery.html">Gallery</a></li>
+                        <li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-798 current_page_item menu-item-3905"><a href="../sponsors/sponsor.html">Sponsors</a></li>
+                        <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html">Contact Us</a></li>
+                    </ul></div> 
+                                     </div>
+                                  </nav>
                                </div>
                             </div>
                          </div>
@@ -404,16 +403,24 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     display: block;
 }
 .mySlides{
-    max-width: 1000px;
+    max-width: 95%;
     display: grid;
     height: auto;
-    margin: 15px auto 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 440px;
-    grid-gap: 40px;
+    margin: 10px auto 20px;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-template-rows: auto 1fr auto;
+    grid-gap: 20px;
+}
+@media only screen and (max-width: 480px){
+    .mySlides{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
 }
 .container-1 .mySlides .card{
     position: relative;
+    width: 300px;
+    height: 440px;
+    margin: 0 auto;
     background: #000;
     overflow: hidden;
     border-radius: 10px;
@@ -434,7 +441,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     height: 100%;
     width: 100%;
     transition: .5s
-
 }
 .container-1 .mySlides .card{
     filter: grayscale(90%);
@@ -463,7 +469,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 .container-1 .mySlides:nth-child(1) .card:nth-child(1) .content-1{
     background: linear-gradient(0deg, #4e7287, transparent);
 }
-
 .container-1 .mySlides:nth-child(1) .card:nth-child(2) .content-1{
     background: linear-gradient(0deg, #3f485d, transparent);
 }
@@ -473,7 +478,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 .container-1 .mySlides:nth-child(2) .card:nth-child(1) .content-1{
     background: linear-gradient(0deg, #4e72, transparent);
 }
-
 .container-1 .mySlides:nth-child(2) .card:nth-child(2) .content-1{
     background: linear-gradient(0deg, #3f48, transparent);
 }
@@ -483,14 +487,12 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 .container-1 .mySlides:nth-child(3) .card:nth-child(1) .content-1{
     background: linear-gradient(0deg, #4e7123, transparent);
 }
-
 .container-1 .mySlides:nth-child(3) .card:nth-child(2) .content-1{
     background: linear-gradient(0deg, #3f4, transparent);
 }
 .container-1 .mySlides:nth-child(3) .card:nth-child(3) .content-1{
     background: linear-gradient(0deg, #222, transparent);
 }
-
 .container-1 .mySlides .card:hover .content-1{
     bottom: 0;
     transition: 0.5s;
@@ -514,7 +516,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 .container-1 .mySlides .card li ul{
     list-style: none;
 }
-
 .slider{
     position: relative;
     width: 33.3%;
@@ -522,13 +523,12 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 440px;
-    grid-gap: 40px;
+    grid-gap: 20px;
 }
 /* Hide the images by default */
 .mySlides {
     display: none;
 }
-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -537,13 +537,12 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: black;
+  color: black !important;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
@@ -552,61 +551,58 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 .prev {
     left: 0;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
+  color: #fff;
 }
 </style>
     <div class="container-1"  align="center">
       
-    <div class="mySlides">
-    <div class="card ">
-    <div class="img-box">
-        <img src="img/Raj.jpg" width="310px" height="440px">
-        </div>
-      <div class="content-1">
-        <h2>Raj Shah<br><span>Event Management</span></h2>
-          <ul>
-          <li><a href="mailto:raj.s.btechi16@ahduni.edu.in"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-    </div>
-
-    <div class="card ">
-    <div class="img-box">
-        <img src="img/Haard.jpg" width="310px" height="440px">
-        </div>
-      <div class="content-1">
-        <h2>Haard Shah<br><span>Event Management</span></h2>
-          <ul>
-          <li><a href="mailto:haard.s.btechi16@ahduni.edu.in"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-        </div>
-    </div>
-
-    <div class="extraSpacing" style="height: 80px;">
-        
-    </div>
-       
-            <p class="prev" onclick="plusSlides(-1)"><font color="white"><i class="fas fa-angle-left"></i></font></p>
-  <p class="next" onclick="plusSlides(1)"><font color="white"><i class="fas fa-angle-right"></i></p>
-        </div>
+            <div class="mySlides">
+                    <div class="card ">
+                    <div class="img-box">
+                        <img src="img/Raj.jpg" width="310px" height="440px">
+                        </div>
+                      <div class="content-1">
+                        <h2>Raj Shah<br><span>raj.s.btechi16@ahduni.edu.in</span><br><span>+91-9512818182</span></h2>
+                          <ul>
+                          <li><a href="mailto:raj.s.btechi16@ahduni.edu.in"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+                    </div>
+                
+                    <div class="card ">
+                    <div class="img-box">
+                        <img src="img/Haard.jpg" width="310px" height="440px">
+                        </div>
+                      <div class="content-1">
+                        <h2>Haard Shah<br><span>haard.s.btechi16@ahduni.edu.in</span><br><span>+91-9429433495</span></h2>
+                          <ul>
+                          <li><a href="mailto:haard.s.btechi16@ahduni.edu.in"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+                          </ul>
+                        </div>
+                        </div>
+                    </div>
+<!--                 
+                    <div class="extraSpacing" style="height: 80px;">
+                        
+                    </div>
+                       
+                            <p class="prev" onclick="plusSlides(-1)"><font color="white"><i class="fas fa-angle-left"></i></font></p>
+                  <p class="next" onclick="plusSlides(1)"><font color="white"><i class="fas fa-angle-right"></i></p> -->
+                        </div>
    <script>
     var slideIndex = 1;
 showSlides(slideIndex);
-
 // Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
 // Thumbnail image controls
 // function currentSlide(n) {
 //   showSlides(slideIndex = n);
 // }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -617,7 +613,6 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "grid";
 }
-
     </script> 
 <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1524458506423 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_gmaps_widget wpb_content_element fs-reach-map" >
         <div class="wpb_wrapper">
@@ -650,18 +645,22 @@ function showSlides(n) {
             <div class="copyright">
            <div class="container">
               <div class="social">
-                 <div class="menu-social-profiles-container"><ul id="menu-social-profiles" class="menu"><li id="menu-item-3807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3807"><a href="http://facebook.com/">facebook</a></li>
-     <li id="menu-item-3808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3808"><a href="http://instagram.com/">instagram</a></li>
-     <li class="menu-item menu-item-type-custom menu-item-object-custom "><a href="http://snapchat.com">snapchat</a></li>
-     <li id="menu-item-3811" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3811"><a href="http://youtube.com">youtube</a></li>
-     
-     </ul></div> 
-     <!-- <svg class>
-         <use href="icon-facebook"/>
-     </svg> -->
+                 <div class="menu-social-profiles-container">
+                    <ul id="menu-social-profiles" class="menu">
+                        <li id="menu-item-3807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3807">
+                            <a href="https://facebook.com/ingeniumAU/">facebook</a></li>
+                        <li id="menu-item-3808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3808">
+                            <a href="https://instagram.com/ingeniumseas?utm_source=ig_profile_share&igshid=7y8oaxotnx4y">instagram</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom ">
+                            <a href="https://www.snapchat.com/add/tech.ingenium">snapchat</a></li>
+                        <li id="menu-item-3811" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3811">
+                            <a href="https://www.youtube.com/channel/UCWBxbbhFqK76XfbedQrQN1Q">youtube</a></li>     
+                    </ul>
+                </div> 
               </div>
               <div class="site-info">
-                 All Rights Reserved ©</div>
+                 All Rights Reserved ©Ingenium-2019
+             </div>
               <!-- .site-info -->
            </div>
         </div>
