@@ -2137,7 +2137,7 @@ button, input[type=button], input[type=reset], input[type=submit] {
     text-align: left 
 }
 #normal-menu div:nth-of-type(2)>div>ul>li>a {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 700;
     color: #ffffff;
     padding: 14px 17px 17px 
@@ -2295,7 +2295,7 @@ button, input[type=button], input[type=reset], input[type=submit] {
     margin-right: 50px !important;
 }
 .menu-logo {
-    width: 19%;
+    width: 25%;
     min-height: 20px;
     float: left;
     display: inline-block;
@@ -5328,10 +5328,10 @@ text-align: center;
         position: fixed;
    }
     .menu-logo img {
-        width: 60px;
+        width: 100%;
    }
     body .classic-menu.mobile-sticky .menu-logo img {
-        width: 50px;
+        width: 100%;
    }
     body .classic-menu.mobile-sticky .menu-logo {
         margin-left: 0px;
@@ -5639,7 +5639,7 @@ text-align: center;
         font-size: 50px 
    }
     .menu-logo img {
-        width: 50px 
+        width: 100%; 
    }
     .title_content h2 {
         font-size: 1.7em 
