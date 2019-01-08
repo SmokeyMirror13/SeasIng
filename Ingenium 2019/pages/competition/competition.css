@@ -203,3 +203,7 @@ width: 15%!important
     border-style: none;
     background-color: #7a2f6a;
 }
+.modal img, img{
+    width: 494.5px!important;
+    height: 320px!important;
+}

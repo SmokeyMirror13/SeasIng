@@ -2,7 +2,6 @@
 html.modal-active, body.modal-active {
   overflow: hidden;
 }
-
 #modal-container {
   position: fixed;
   display: table;
