@@ -2308,6 +2308,12 @@ button, input[type=button], input[type=reset], input[type=submit] {
     align-self: center;
     align-self: flex-start; 
 }
+@media (max-width : 768px)
+{
+    .menu-logo{
+        width : 50%;
+    }
+}
 .menu-logo img {
     width: 100%; 
 }
