@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25ba96ab-545f-4600-996e-952f006f420e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ingenium 2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingenium 2019/pages/competition/competition.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/pages/competition/competition.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingenium 2019/pages/contact/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/pages/contact/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingenium 2019/pages/gallery/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/pages/gallery/gallery.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingenium 2019/pages/hackathon/hackathon.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/pages/hackathon/hackathon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingenium 2019/pages/home-one/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/pages/home-one/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingenium 2019/pages/sponsors/sponsor.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/pages/sponsors/sponsor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ingenium 2019/pages/workshop/workshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ingenium 2019/pages/workshop/workshop.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,11 +18,12 @@
     <session id="1850392122">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -58,7 +53,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/home-one/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
+            <state relative-caret-position="7680">
               <caret line="512" column="15" selection-start-line="512" selection-start-column="8" selection-end-line="512" selection-end-column="15" />
             </state>
           </provider>
@@ -67,12 +62,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="344" lean-forward="true" selection-start-line="344" selection-end-line="344" />
+            <state relative-caret-position="247">
+              <caret line="563" lean-forward="true" selection-start-line="563" selection-end-line="563" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h6#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -81,7 +75,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/competition/competition.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="10995">
               <caret line="733" selection-start-line="733" selection-end-line="733" />
             </state>
           </provider>
@@ -90,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/contact/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="9795">
               <caret line="653" selection-start-line="653" selection-end-line="653" />
             </state>
           </provider>
@@ -99,7 +93,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/gallery/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="6690">
               <caret line="446" selection-start-line="446" selection-end-line="446" />
             </state>
           </provider>
@@ -108,7 +102,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/hackathon/hackathon.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="6930">
               <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
             </state>
           </provider>
@@ -117,7 +111,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/schedule/schedule.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="345">
               <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
@@ -126,7 +120,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/sponsors/sponsor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
+            <state relative-caret-position="6270">
               <caret line="418" selection-start-line="418" selection-end-line="418" />
             </state>
           </provider>
@@ -135,7 +129,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/workshop/workshop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="9375">
               <caret line="625" selection-start-line="625" selection-end-line="625" />
             </state>
           </provider>
@@ -182,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,7 +199,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,11 +233,12 @@
       <workItem from="1548697131524" duration="184000" />
       <workItem from="1548784183658" duration="51000" />
       <workItem from="1548784237952" duration="1286000" />
+      <workItem from="1548790616910" duration="27000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2082000" />
+    <option name="totallyTimeSpent" value="2109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1040" extended-state="6" />
@@ -274,70 +269,69 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/home-one/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7680">
+          <caret line="512" column="15" selection-start-line="512" selection-start-column="8" selection-end-line="512" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/competition/competition.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="10995">
           <caret line="733" selection-start-line="733" selection-end-line="733" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/contact/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="9795">
           <caret line="653" selection-start-line="653" selection-end-line="653" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/gallery/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="6690">
           <caret line="446" selection-start-line="446" selection-end-line="446" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/hackathon/hackathon.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="6930">
           <caret line="462" lean-forward="true" selection-start-line="462" selection-end-line="462" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/schedule/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="345">
           <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/sponsors/sponsor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
+        <state relative-caret-position="6270">
           <caret line="418" selection-start-line="418" selection-end-line="418" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/workshop/workshop.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="9375">
           <caret line="625" selection-start-line="625" selection-end-line="625" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Ingenium 2019/pages/home-one/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="512" column="15" selection-start-line="512" selection-start-column="8" selection-end-line="512" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ingenium 2019/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="344" lean-forward="true" selection-start-line="344" selection-end-line="344" />
+        <state relative-caret-position="247">
+          <caret line="563" lean-forward="true" selection-start-line="563" selection-end-line="563" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h6#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
