@@ -14,6 +14,7 @@
 <link rel='dns-prefetch' href='http://s.w.org/' />
 <link rel="alternate" type="application/rss+xml" title="Ingenium &raquo; Feed" href="../feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="Ingenium &raquo; Comments Feed" href="../comments/feed/index.html" />
+<!-- <link rel="stylesheet" type="text/css" href="css/button_jQuery.css"> -->
 
     <script src="js/particles.min.js" type="text/javascript"></script> 
 
@@ -236,6 +237,40 @@ img.emoji {
             h5 {
                 font-size: 13.5px;
             }
+
+            .register-button {
+              position: fixed;
+              /*z-index: 20;*/
+              right: 10px;
+              bottom: 23px;
+              border-radius: 60px;
+              line-height: 60px;
+              color: #fff;
+              letter-spacing: .5px;
+              background: #2f52ff;
+              box-shadow: 0 2px 40px #0b1440;
+              /*transition: background .3s, box-shadow .3s;*/
+              width: 150px;
+              height: 80px;
+              text-align: center;
+              padding: 0; }
+
+              .topic-button {
+              position: fixed;
+              /*z-index: 20;*/
+              right: 200px;
+              bottom: 23px;
+              border-radius: 60px;
+              line-height: 25px;
+              color: #fff;
+              letter-spacing: .5px;
+              background: #2f52ff;
+              box-shadow: 0 2px 40px #0b1440;
+              /*transition: background .3s, box-shadow .3s;*/
+              width: 150px;
+              height: 80px;
+              text-align: center;
+              padding: 0; }
         }
         @media only screen and (max-width: 480px) {
             h1 {
@@ -366,9 +401,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html">Workshops</a></li>
                <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html">Competitions</a></li>
                <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html">Hackathon</a></li>
-               
-                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../games/games.html">GAMES</a></li>
-                         <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../schedule/schedule.html">Schedule</a></li>
                <!-- <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../gallery/gallery.html">Gallery</a></li>
                <li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-798 current_page_item menu-item-3905"><a href="../sponsors/sponsor.html">Sponsors</a></li> -->
                <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html">Contact Us</a></li>
@@ -403,14 +435,11 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
          <article id="post-1090" class="post-1090 page type-page status-publish hentry">
       <div class="entry-content"  >
 
+        <!-- <link rel="stylesheet" type="text/css" href="css/button_jQuery.css"> -->
+
         <!-- CSS BootStrap -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-        <link href="css/thumbnail-slider.css" rel="stylesheet" type="text/css" />
-        <link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />
-
-        <!-- JS Ninja-Slider -->
-        <script src="js/thumbnail-slider.js" type="text/javascript"></script>
-        <script src="js/ninja-slider.js" type="text/javascript"></script>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
         <!-- Start Content -->
         <div id="contact">
@@ -418,7 +447,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
             <div class="row section-title text-center">
                 
                     <p style="color: black">
-
                         The Ingenious Hackathon is a 36-hour intensive coding competition
                         partnered with IEEE. The problems are of a wide range and designed
                         while keeping in mind an industry-oriented approach, with support from many
@@ -427,12 +455,11 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         <br>
                         Every team works on the selected problem and is evaluated
                         for their progress, innovativation, and practicality of their work on
-                        regular intervals. </p>
-                    
+                        regular intervals. 
+                    </p>
+                  
                         <!-- End Content -->
-                        
-                        
-                        
+
                         <!-- Start WOWSlider.com -->
                         <!-- <iframe src="wowslider.html" style="width:830px;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe> -->
                         <!-- End WOWSlider.com -->
@@ -440,9 +467,64 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         <!-- <div class="coming_soon" style="width: auto; height: 200px; float: left; ">
             <h1 style="color: #7a2d6a; font-family: Montserrat;">Topics coming Soon...</h1>
         </div> -->
+
+        <section>            
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="padding: 10px 20px;    background:#7a2f6a; color:white;    border:none;    border-radius:10px; margin: 10px 0 0 0;">FAQ's &#9662;</button>
+              <div id="demo" class="collapse">
+                <h4>1. What is Ingenious Hackathon?</h4>    
+                <p>Ingenious is an initiative by some nerdy noobs at School of Engineering and Applied Sciences, Ahmedabad University. We want you in the limelight, while we manage the light and the technicalities. We want you to come and build & code. We provide everything else (Not transportation).</p>
+                <h4>2. Who can participate?</h4>
+                <p>The maximum age of the participant must be 25. He must not necessarily be a college student.</p>
+                <h4>3. What are the dates?</h4>
+                <p>2nd and 3rd March, 2018</p>
+                <h4>4. What is the team size?</h4>
+                <p>2-4 people. Lone-wolves strictly not allowed.</p>
+                <h4>5. How does the selection process work?</h4>
+                <p>Provide us your idea abstract. Give us your GitHub and LinkedIn profiles. The mentors from the companies will go through your abstracts while we stalk your tech-profile. The mentors and the organizers will get together to select the participants.</p>
+                <h4>6. What should I bring?</h4>
+                <p>A valid government issued photo ID and/or your college issued photo ID, laptop, phone, chargers and your favorite blanket. (we'll be providing mattresses).</p>
+                <h4>7. What shouldn’t I bring?</h4>
+                <p>Drugs, Alcohol or any sort of weapons that can injure or are in any way harmful or addictive. If you are unsure, please ask us.</p>
+                <h4>8. How does judging work?</h4>
+                <p>The companies will provide their juries who will judge the projects in the respective fields based on the development of the project during the 36 hours as well as a 10-minute presentation after the Ingenious Hackathon time finishes.</p>
+                <h4>9. Can I start working on the Hack beforehand?</h4>
+                <p>A strict No. The entire development of the project must begin and end during the time of the Ingenious Hackathon.</p>
+                <h4>10. Where to find the guidelines and timeline for Hackathon?</h4>
+                <p>It is available in the more details part of this page.</p>
+              </div>
+        </section>
+
+            <section>
+                <a target="_blank" href="Hackathon_Topics/index.html"><button class="topic-button"> Browse Topics </button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETmbKKM2Iu2YrjvyiOlO_O3QC4w7HIPj8tP80nw-dBYqUqA/viewform">
+                    <button class="register-button"> Register </button> </a>          
+            </section>
+            <style type="text/css">
+                .register-button
+                {
+                    padding: 10px 20px;
+                    background:#7a2f6a;
+                    color:white;
+                    border:none;
+                    border-radius:10px;
+                    float:right;
+                    margin: 5px 10px 0 800px;
+                }
+                .topic-button
+                {
+                    padding: 10px 20px;
+                    background:#7a2f6a;
+                    color:white;
+                    border:none;
+                    border-radius:10px;
+                    float:right;
+                    margin: 5px 0 0 0;
+                }
+            </style>
+
         
-        <div class="section2 one"  >
-            <a href="Hackathon_Topics/Data_Science.html" style="color: #7a2d6a; text-decoration: underline;"><div id="button" >More Topics </a>
+        <!-- <div class="section2 one"  >
+            <a href="Hackathon_Topics/Data_Science.html" style="color: #7a2d6a; text-decoration: underline; float: right;"><div id="button" >Browse Topics </a>
                 <div class="ring one"></div>
                 <div class="ring two"></div>
                 <div class="ring three"></div>
@@ -562,10 +644,10 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                   transition: all 0.9s cubic-bezier(0.55, 0, 0.1, 1);
                   z-index: -3;
                 }
-        </style>
+        </style> -->
         
     
-       </section>
+       <!-- </section> -->
        
 
    </div>
