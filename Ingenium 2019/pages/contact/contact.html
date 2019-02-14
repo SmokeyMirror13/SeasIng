@@ -304,9 +304,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
          </div>
       </div> -->
       <div id="page" class="site">
-        <div class="AU" style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white ">
-        <a href="https://ahduni.edu.in/"><img src="img/AU.png" alt=""></a>
-        </div>
+        <div class="AU" id="AU" style="z-index: 999; width: 100%; float: left; background-color: white ">
+            <a href="https://ahduni.edu.in/"><img style="position:fixed; top:0px;" src="img/AU.png" alt=""></a>
+            </div>
             <div class="dotted-bg-pattern"  data-end="background-position:0% 70%;" data-0="background-position:0% 0%;"  ></div>
                   <div class="header-tilte" style="height: 400px; background-image: url('../../images/contactus.jpg')">
             <header id="masthead" class="site-header common-header">
@@ -325,8 +325,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                    <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html">Competitions</a></li>
                    <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html">Hackathon</a></li>
                    
-                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../games/games.html">GAMES</a></li>
-                         <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../schedule/schedule.html">Schedule</a></li>
+                        <!-- <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../games/games.html">GAMES</a></li> -->
+                         <!-- <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../schedule/schedule.html">Schedule</a></li> -->
                    <!-- <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../gallery/gallery.html">Gallery</a></li> -->
                    <!-- <li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-798 current_page_item menu-item-3905"><a href="../sponsors/sponsor.html">Sponsors</a></li> -->
                    <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html">Contact Us</a></li>
@@ -630,6 +630,15 @@ function showSlides(n) {
       slides[i].style.display = "none";
   }
   slides[slideIndex-1].style.display = "grid";
+  var au = document.getElementById('AU');
+    if(au.offsetTop <= window.pageYOffset)
+    {
+        au.style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white  display : none;";
+    }
+    else
+    {
+        au.style = "position: absolute; z-index: 999; width: 100%; float: left; background-color: white; display : block; ";
+    }
 }
     </script>
 <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1524458506423 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="wpb_gmaps_widget wpb_content_element fs-reach-map" >
@@ -686,6 +695,15 @@ function showSlides(n) {
         var c = document.body.className;
         c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
         document.body.className = c;
+        var au = document.getElementById('AU');
+    if(au.offsetTop <= window.pageYOffset)
+    {
+        au.style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white  display : none;";
+    }
+    else
+    {
+        au.style = "position: absolute; z-index: 999; width: 100%; float: left; background-color: white; display : block; ";
+    }
     </script>
     <script type='text/javascript'>
 /* <![CDATA[ */

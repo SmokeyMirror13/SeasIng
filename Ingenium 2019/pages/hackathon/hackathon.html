@@ -244,14 +244,14 @@ img.emoji {
               right: 10px;
               bottom: 23px;
               border-radius: 60px;
-              line-height: 60px;
+              line-height: 30px;
               color: #fff;
               letter-spacing: .5px;
               background: #2f52ff;
               box-shadow: 0 2px 40px #0b1440;
               /*transition: background .3s, box-shadow .3s;*/
               width: 150px;
-              height: 80px;
+              height: 50px;
               text-align: center;
               padding: 0; }
 
@@ -261,14 +261,14 @@ img.emoji {
               right: 200px;
               bottom: 23px;
               border-radius: 60px;
-              line-height: 25px;
+              line-height: 20px;
               color: #fff;
               letter-spacing: .5px;
               background: #2f52ff;
               box-shadow: 0 2px 40px #0b1440;
               /*transition: background .3s, box-shadow .3s;*/
               width: 150px;
-              height: 80px;
+              height: 50px;
               text-align: center;
               padding: 0; }
         }
@@ -344,9 +344,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 
 
       <div id="page" class="site">
-        <div class="AU" style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white ">
-        <a href="https://ahduni.edu.in/"><img src="img/AU.png" alt=""></a>
-        </div>
+        <div class="AU" id="AU" style="z-index: 999; width: 100%; float: left; background-color: white ">
+            <a href="https://ahduni.edu.in/"><img style="position:fixed; top:0px;" src="img/AU.png" alt=""></a>
+            </div>
 
         <div class="dotted-bg-pattern"  data-end="background-position:0% 70%;" data-0="background-position:0% 0%;"  ></div>              
 
@@ -695,6 +695,15 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     var c = document.body.className;
     c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
     document.body.className = c;
+    var au = document.getElementById('AU');
+    if(au.offsetTop <= window.pageYOffset)
+    {
+        au.style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white  display : none;";
+    }
+    else
+    {
+        au.style = "position: absolute; z-index: 999; width: 100%; float: left; background-color: white; display : block; ";
+    }
 </script>
 <link rel='stylesheet' id='animate-css-css'  href='../../wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min4245.css?ver=5.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='vc_tta_style-css'  href='../../wp-content/plugins/js_composer/assets/css/js_composer_tta.min4245.css?ver=5.5.2' type='text/css' media='all' />
