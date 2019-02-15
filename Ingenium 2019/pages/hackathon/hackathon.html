@@ -240,37 +240,33 @@ img.emoji {
 
             .register-button {
               position: fixed;
-              /*z-index: 20;*/
-              right: 10px;
-              bottom: 23px;
-              border-radius: 60px;
+              z-index: 20;
+              right: 7%;
+              bottom: 5%;
               line-height: 30px;
               color: #fff;
               letter-spacing: .5px;
               background: #2f52ff;
-              box-shadow: 0 2px 40px #0b1440;
               /*transition: background .3s, box-shadow .3s;*/
               width: 150px;
               height: 50px;
               text-align: center;
-              padding: 0; }
+              margin: 10px}
 
               .topic-button {
               position: fixed;
-              /*z-index: 20;*/
-              right: 200px;
-              bottom: 23px;
-              border-radius: 60px;
+              z-index: 20;
+              right: 55%;
+              bottom: 5%;
+              /* border-radius: 60px; */
               line-height: 20px;
               color: #fff;
               letter-spacing: .5px;
-              background: #2f52ff;
-              box-shadow: 0 2px 40px #0b1440;
               /*transition: background .3s, box-shadow .3s;*/
               width: 150px;
               height: 50px;
-              text-align: center;
-              padding: 0; }
+              text-align: center; 
+              margin: 10px}
         }
         @media only screen and (max-width: 480px) {
             h1 {
@@ -351,7 +347,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
         <div class="dotted-bg-pattern"  data-end="background-position:0% 70%;" data-0="background-position:0% 0%;"  ></div>              
 
               <div class="header-tilte" style="height: 400px; background-image: url('../../images/hackathon.jpg')">
-
+<!-- 
                     <canvas id="myCanvas" width="1536" height="475" 
                         style="position: absolute; top: 0; left: 0;">                            
                     </canvas>
@@ -373,8 +369,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 
                             });
                           };
-                        </script>
-
+                        </script> -->
+<!-- 
                         <script>                            
                           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -384,7 +380,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                           ga('create', 'UA-46156385-1', 'cssscript.com');
                           ga('send', 'pageview');
 
-                        </script>
+                        </script> -->
 
         <header id="masthead" class="site-header common-header">
       
@@ -457,7 +453,11 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         for their progress, innovativation, and practicality of their work on
                         regular intervals. 
                     </p>
-                  
+                    <section>
+                        <a target="_blank" href="Hackathon_Topics/index.html"><button class="topic-button"> Browse Topics </button></a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETmbKKM2Iu2YrjvyiOlO_O3QC4w7HIPj8tP80nw-dBYqUqA/viewform">
+                            <button class="register-button"> Register </button> </a>          
+                    </section>
                         <!-- End Content -->
 
                         <!-- Start WOWSlider.com -->
@@ -467,9 +467,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         <!-- <div class="coming_soon" style="width: auto; height: 200px; float: left; ">
             <h1 style="color: #7a2d6a; font-family: Montserrat;">Topics coming Soon...</h1>
         </div> -->
-
         <section>            
-                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="padding: 10px 20px;    background:#7a2f6a; color:white;    border:none;    border-radius:10px; margin: 10px 0 0 0;">FAQ's &#9662;</button>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="padding: 10px 20px;    background:#7a2f6a; color:white; margin: 10px 0 0 0;">FAQ's &#9662;</button>
               <div id="demo" class="collapse">
                 <h4>1. What is Ingenious Hackathon?</h4>    
                 <p>Ingenious is an initiative by some nerdy noobs at School of Engineering and Applied Sciences, Ahmedabad University. We want you in the limelight, while we manage the light and the technicalities. We want you to come and build & code. We provide everything else (Not transportation).</p>
@@ -494,11 +493,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
               </div>
         </section>
 
-            <section>
-                <a target="_blank" href="Hackathon_Topics/index.html"><button class="topic-button"> Browse Topics </button></a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETmbKKM2Iu2YrjvyiOlO_O3QC4w7HIPj8tP80nw-dBYqUqA/viewform">
-                    <button class="register-button"> Register </button> </a>          
-            </section>
+           
             <style type="text/css">
                 .register-button
                 {
@@ -506,8 +501,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                     background:#7a2f6a;
                     color:white;
                     border:none;
-                    border-radius:10px;
-                    float:right;
+                    /* border-radius:10px; */
                     margin: 5px 10px 0 800px;
                 }
                 .topic-button
@@ -516,8 +510,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                     background:#7a2f6a;
                     color:white;
                     border:none;
-                    border-radius:10px;
-                    float:right;
+                    /* border-radius:10px; */
                     margin: 5px 0 0 0;
                 }
             </style>
