@@ -255,6 +255,10 @@ img.emoji {
             h5 {
                 font-size:  12px;
             }
+            .AU{
+                position: fixed!important;
+                z-index: 999;
+            }
         }
 </style>
 <link rel='stylesheet' id='google-fonts-css'  href='http://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700,900%7CRaleway;subset=latin-ex%7CMontserrat:300i,400,400i,600,700%7CLibre+Baskerville:400i%7CRoboto:300,400,700' type='text/css' media='all' />
@@ -305,33 +309,30 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
          </div>
       </div> -->
       <div id="page" class="site">
-        <div class="AU" style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white ">
-        <a href="https://ahduni.edu.in/"><img src="img/AU.png" alt=""></a>
+        <div class="AU" id="AU" style="z-index: 999; width: 100%; float: left; background-color: white ">
+        <a href="https://ahduni.edu.in/"><img style="position:fixed; top:0px;" src="img/AU.png" alt=""></a>
         </div>
         <div class="dotted-bg-pattern"  data-end="background-position:0% 70%;" data-0="background-position:0% 0%;"  ></div>
               <div class="header-tilte" style="height: 400px; background-image: url('../../images/sponsors.jpg')">
 
         <header id="masthead" class="site-header common-header">
+                
                 <div class="classic-menu  ">
-                        <div class=" container ">
-                           <div class="menu-logo">
-                            <a href="../../index.html"><img src='../../images/mainlogo4.png' alt='logo'/></a>
-                          </div>
-                           <div class="menu-wrapper">
-                            <nav id="normal-menu" >
-                                <div  >
-                                   <div class="primary-menu"><ul id="primary-menu" class="menu">
-               <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../../index.html">Home</a></li>
-               <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html">Workshops</a></li>
-               <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html">Competitions</a></li>
-               <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html">Hackathon</a></li>
-               <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../concert/concert.html">CONCERT</a></li>
-                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../games/games.html">GAMES</a></li>
-                         <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../schedule/schedule.html">Schedule</a></li>
-               <!-- <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../gallery/gallery.html">Gallery</a></li>
-               <li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-798 current_page_item menu-item-3905"><a href="../sponsors/sponsor.html">Sponsors</a></li> -->
-               <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html">Contact Us</a></li>
-               </ul></div>
+                                <div class=" container ">
+                                   <div class="menu-logo">
+                                    <a href="../../index.html"><img style="padding-top: 5px" src='../../images/mainlogo4.png' alt='logo'/></a>
+                                  </div>
+                                   <div class="menu-wrapper">
+                                                        <nav id="normal-menu" >
+                                         <div  >
+                                            <div class="primary-menu"><ul id="primary-menu" class="menu" style="padding-top: 20px">
+                        <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../../index.html"><u>Home</u></a></li>
+                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html"><u>Workshops</u></a></li>
+                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html"><u>Competitions</u></a></li>
+                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html"><u>Hackathon</u></a></li>
+                        <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html"><u>Contact Us</u></a></li>
+                        </ul></div>
+                        
                                 </div>
                              </nav>
                            </div>
@@ -450,6 +451,15 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     var c = document.body.className;
     c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
     document.body.className = c;
+    var au = document.getElementById('AU');
+    if(au.offsetTop <= window.pageYOffset)
+    {
+        au.style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white  display : none;";
+    }
+    else
+    {
+        au.style = "position: absolute; z-index: 999; width: 100%; float: left; background-color: white; display : block; ";
+    }
 </script>
 <link rel='stylesheet' id='animate-css-css'  href='../../wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min4245.css?ver=5.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='vc_tta_style-css'  href='../../wp-content/plugins/js_composer/assets/css/js_composer_tta.min4245.css?ver=5.5.2' type='text/css' media='all' />

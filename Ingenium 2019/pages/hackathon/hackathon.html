@@ -239,38 +239,35 @@ img.emoji {
             }
 
             .register-button {
-              position: fixed;
-              /*z-index: 20;*/
-              right: 10px;
-              bottom: 23px;
-              border-radius: 60px;
-              line-height: 60px;
+              position: absolute;
+              z-index: 20;
+              right: 7%;
+              bottom: 5%;
+              line-height: 30px;
               color: #fff;
               letter-spacing: .5px;
               background: #2f52ff;
-              box-shadow: 0 2px 40px #0b1440;
               /*transition: background .3s, box-shadow .3s;*/
-              width: 150px;
-              height: 80px;
+              width: 120px;
+              height: 50px;
               text-align: center;
-              padding: 0; }
+              margin: 20px}
 
               .topic-button {
-              position: fixed;
-              /*z-index: 20;*/
-              right: 200px;
-              bottom: 23px;
-              border-radius: 60px;
-              line-height: 25px;
+              position: absolute;
+              z-index: 20;
+              right: 55%;
+              bottom: 5%;
+              /* border-radius: 60px; */
+              line-height: 20px;
               color: #fff;
               letter-spacing: .5px;
-              background: #2f52ff;
-              box-shadow: 0 2px 40px #0b1440;
               /*transition: background .3s, box-shadow .3s;*/
-              width: 150px;
-              height: 80px;
-              text-align: center;
-              padding: 0; }
+              width: 120px;
+              height: 50px;
+              text-align: center; 
+              margin: 20px;
+              padding : 20px}
         }
         @media only screen and (max-width: 480px) {
             h1 {
@@ -344,14 +341,14 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 
 
       <div id="page" class="site">
-        <div class="AU" style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white ">
-        <a href="https://ahduni.edu.in/"><img src="img/AU.png" alt=""></a>
-        </div>
+        <div class="AU" id="AU" style="z-index: 999; width: 100%; float: left; background-color: white ">
+            <a href="https://ahduni.edu.in/"><img style="position:fixed; top:0px;" src="img/AU.png" alt=""></a>
+            </div>
 
         <div class="dotted-bg-pattern"  data-end="background-position:0% 70%;" data-0="background-position:0% 0%;"  ></div>              
 
               <div class="header-tilte" style="height: 400px; background-image: url('../../images/hackathon.jpg')">
-
+<!-- 
                     <canvas id="myCanvas" width="1536" height="475" 
                         style="position: absolute; top: 0; left: 0;">                            
                     </canvas>
@@ -373,8 +370,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 
                             });
                           };
-                        </script>
-
+                        </script> -->
+<!-- 
                         <script>                            
                           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -384,30 +381,27 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                           ga('create', 'UA-46156385-1', 'cssscript.com');
                           ga('send', 'pageview');
 
-                        </script>
+                        </script> -->
 
         <header id="masthead" class="site-header common-header">
       
                 <div class="classic-menu  ">
-                        <div class=" container ">
-                           <div class="menu-logo">
-                            <a href="../../index.html"><img src='../../images/mainlogo4.png' alt='logo'/></a>
-                          </div>
-                           <div class="menu-wrapper">
-                            <nav id="normal-menu" >
-                                <div  >
-                                   <div class="primary-menu"><ul id="primary-menu" class="menu">
-               <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../../index.html">Home</a></li>                
-               <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html">Workshops</a></li>
-               <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html">Competitions</a></li>
-               <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html">Hackathon</a></li>
-               <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../concert/concert.html">CONCERT</a></li>
-                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../games/games.html">GAMES</a></li>
-                         <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../schedule/schedule.html">Schedule</a></li>
-               <!-- <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../gallery/gallery.html">Gallery</a></li>
-               <li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-798 current_page_item menu-item-3905"><a href="../sponsors/sponsor.html">Sponsors</a></li> -->
-               <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html">Contact Us</a></li>
-               </ul></div> 
+                                <div class=" container ">
+                                   <div class="menu-logo">
+                                    <a href="../../index.html"><img style="padding-top: 5px" src='../../images/mainlogo4.png' alt='logo'/></a>
+                                  </div>
+                                   <div class="menu-wrapper">
+                                                        <nav id="normal-menu" >
+                                         <div  >
+                                            <div class="primary-menu"><ul id="primary-menu" class="menu" style="padding-top: 20px">
+                        <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../../index.html"><u>Home</u></a></li>
+                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html"><u>Workshops</u></a></li>
+                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html"><u>Competitions</u></a></li>
+                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html"><u>Hackathon</u></a></li>
+                        <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html"><u>Contact Us</u></a></li>
+                        </ul></div>
+
+                        
                                 </div>
                              </nav>
                            </div>
@@ -445,9 +439,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
         <!-- Start Content -->
-        <div id="contact">
+        <!-- <div id="contact">
         <div class="container padding-top padding-bottom">
-            <div class="row section-title text-center">
+            <div class="row section-title text-center"> -->
                 
                     <p style="color: black">
                         The Ingenious Hackathon is a 36-hour intensive coding competition
@@ -460,7 +454,10 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         for their progress, innovativation, and practicality of their work on
                         regular intervals. 
                     </p>
-                  
+                        <div style="padding:10px 0">
+                        <a target="_blank" href="Hackathon_Topics/index.html"><button style="color :white; "> Browse Topics </button></a></div>
+                        <div style="padding:10px 0"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdETmbKKM2Iu2YrjvyiOlO_O3QC4w7HIPj8tP80nw-dBYqUqA/viewform">
+                            <button style="color :white; "> Register </button> </a></div>
                         <!-- End Content -->
 
                         <!-- Start WOWSlider.com -->
@@ -470,9 +467,8 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         <!-- <div class="coming_soon" style="width: auto; height: 200px; float: left; ">
             <h1 style="color: #7a2d6a; font-family: Montserrat;">Topics coming Soon...</h1>
         </div> -->
-
         <section>            
-                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="padding: 10px 20px;    background:#7a2f6a; color:white;    border:none;    border-radius:10px; margin: 10px 0 0 0;">FAQ's &#9662;</button>
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="padding: 10px 20px;    background:#7a2f6a; color:white; margin: 10px 0 0 0;">FAQ's &#9662;</button>
               <div id="demo" class="collapse">
                 <h4>1. What is Ingenious Hackathon?</h4>    
                 <p>Ingenious is an initiative by some nerdy noobs at School of Engineering and Applied Sciences, Ahmedabad University. We want you in the limelight, while we manage the light and the technicalities. We want you to come and build & code. We provide everything else (Not transportation).</p>
@@ -497,11 +493,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
               </div>
         </section>
 
-            <section>
-                <a target="_blank" href="Hackathon_Topics/index.html"><button class="topic-button"> Browse Topics </button></a>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETmbKKM2Iu2YrjvyiOlO_O3QC4w7HIPj8tP80nw-dBYqUqA/viewform">
-                    <button class="register-button"> Register </button> </a>          
-            </section>
+           
             <style type="text/css">
                 .register-button
                 {
@@ -509,8 +501,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                     background:#7a2f6a;
                     color:white;
                     border:none;
-                    border-radius:10px;
-                    float:right;
+                    /* border-radius:10px; */
                     margin: 5px 10px 0 800px;
                 }
                 .topic-button
@@ -519,8 +510,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                     background:#7a2f6a;
                     color:white;
                     border:none;
-                    border-radius:10px;
-                    float:right;
+                    /* border-radius:10px; */
                     margin: 5px 0 0 0;
                 }
             </style>
@@ -698,6 +688,15 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     var c = document.body.className;
     c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
     document.body.className = c;
+    var au = document.getElementById('AU');
+    if(au.offsetTop <= window.pageYOffset)
+    {
+        au.style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white  display : none;";
+    }
+    else
+    {
+        au.style = "position: absolute; z-index: 999; width: 100%; float: left; background-color: white; display : block; ";
+    }
 </script>
 <link rel='stylesheet' id='animate-css-css'  href='../../wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min4245.css?ver=5.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='vc_tta_style-css'  href='../../wp-content/plugins/js_composer/assets/css/js_composer_tta.min4245.css?ver=5.5.2' type='text/css' media='all' />
