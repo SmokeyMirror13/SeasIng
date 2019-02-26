@@ -238,36 +238,26 @@ img.emoji {
                 font-size: 13.5px;
             }
 
-            .register-button {
-              position: absolute;
-              z-index: 20;
-              right: 7%;
-              bottom: 5%;
-              line-height: 30px;
-              color: #fff;
-              letter-spacing: .5px;
-              background: #2f52ff;
-              /*transition: background .3s, box-shadow .3s;*/
-              width: 120px;
-              height: 50px;
-              text-align: center;
-              margin: 20px}
+            
 
-              .topic-button {
-              position: absolute;
-              z-index: 20;
-              right: 55%;
-              bottom: 5%;
-              /* border-radius: 60px; */
+              btn btn-info{
+                position: absolute;
+                /*z-index: 20;*/
+              right: 200px;
+              bottom: 23px;
+              /*border-radius: 60px;*/
               line-height: 20px;
               color: #fff;
               letter-spacing: .5px;
+              background: #2f52ff;
+              box-shadow: 0 2px 40px #0b1440;
               /*transition: background .3s, box-shadow .3s;*/
-              width: 120px;
+              width: 150px;
               height: 50px;
-              text-align: center; 
-              margin: 20px;
-              padding : 20px}
+              text-align: center;
+              padding: 0;
+              margin: 100% 0 0 0;
+              }
         }
         @media only screen and (max-width: 480px) {
             h1 {
@@ -341,14 +331,14 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 
 
       <div id="page" class="site">
-        <div class="AU" id="AU" style="z-index: 999; width: 100%; float: left; background-color: white ">
-            <a href="https://ahduni.edu.in/"><img style="position:fixed; top:0px;" src="img/AU.png" alt=""></a>
-            </div>
+        <div class="AU" id="AU" style="position: fixed; z-index: 999; width: 100%; float: left; background-color: white ">
+        <a href="https://ahduni.edu.in/"><img src="img/AU.png" alt=""></a>
+        </div>
 
         <div class="dotted-bg-pattern"  data-end="background-position:0% 70%;" data-0="background-position:0% 0%;"  ></div>              
 
               <div class="header-tilte" style="height: 400px; background-image: url('../../images/hackathon.jpg')">
-<!-- 
+
                     <canvas id="myCanvas" width="1536" height="475" 
                         style="position: absolute; top: 0; left: 0;">                            
                     </canvas>
@@ -365,13 +355,13 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                               showParticles: true,
                               sizeVariations: 3,
                               speed: 1.0,
-                              minDistance: 100,
+                              minDistance: 60,
                               maxParticles: 110,
 
                             });
                           };
-                        </script> -->
-<!-- 
+                        </script>
+
                         <script>                            
                           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
                           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -381,27 +371,27 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                           ga('create', 'UA-46156385-1', 'cssscript.com');
                           ga('send', 'pageview');
 
-                        </script> -->
+                        </script>
 
         <header id="masthead" class="site-header common-header">
       
                 <div class="classic-menu  ">
-                                <div class=" container ">
-                                   <div class="menu-logo">
-                                    <a href="../../index.html"><img style="padding-top: 5px" src='../../images/mainlogo4.png' alt='logo'/></a>
-                                  </div>
-                                   <div class="menu-wrapper">
-                                                        <nav id="normal-menu" >
-                                         <div  >
-                                            <div class="primary-menu"><ul id="primary-menu" class="menu" style="padding-top: 20px">
-                        <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../../index.html"><u>Home</u></a></li>
-                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html"><u>Workshops</u></a></li>
-                        <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html"><u>Competitions</u></a></li>
-                        <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html"><u>Hackathon</u></a></li>
-                        <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html"><u>Contact Us</u></a></li>
-                        </ul></div>
-
-                        
+                        <div class=" container ">
+                           <div class="menu-logo">
+                            <a href="../../index.html"><img src='../../images/mainlogo4.png' alt='logo'/></a>
+                          </div>
+                           <div class="menu-wrapper">
+                            <nav id="normal-menu" >
+                                <div  >
+                                   <div class="primary-menu"><ul id="primary-menu" class="menu">
+               <li id="menu-item-3904" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3904"><a href="../../index.html">Home</a></li>                
+               <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../workshop/workshop.html">Workshops</a></li>
+               <li id="menu-item-3900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3900"><a href="../competition/competition.html">Competitions</a></li>
+               <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../hackathon/hackathon.html">Hackathon</a></li>
+               <!-- <li id="menu-item-3896" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3896"><a href="../gallery/gallery.html">Gallery</a></li>
+               <li id="menu-item-3905" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-798 current_page_item menu-item-3905"><a href="../sponsors/sponsor.html">Sponsors</a></li> -->
+               <li id="menu-item-3894" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894"><a href="../contact/contact.html">Contact Us</a></li>
+               </ul></div> 
                                 </div>
                              </nav>
                            </div>
@@ -439,9 +429,9 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 
         <!-- Start Content -->
-        <!-- <div id="contact">
+        <div id="contact">
         <div class="container padding-top padding-bottom">
-            <div class="row section-title text-center"> -->
+            <div class="row section-title text-center">
                 
                     <p style="color: black">
                         The Ingenious Hackathon is a 36-hour intensive coding competition
@@ -454,10 +444,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         for their progress, innovativation, and practicality of their work on
                         regular intervals. 
                     </p>
-                        <div style="padding:10px 0">
-                        <a target="_blank" href="Hackathon_Topics/index.html"><button style="color :white; "> Browse Topics </button></a></div>
-                        <div style="padding:10px 0"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdETmbKKM2Iu2YrjvyiOlO_O3QC4w7HIPj8tP80nw-dBYqUqA/viewform">
-                            <button style="color :white; "> Register </button> </a></div>
+                  
                         <!-- End Content -->
 
                         <!-- Start WOWSlider.com -->
@@ -467,8 +454,13 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         <!-- <div class="coming_soon" style="width: auto; height: 200px; float: left; ">
             <h1 style="color: #7a2d6a; font-family: Montserrat;">Topics coming Soon...</h1>
         </div> -->
+
         <section>            
-                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="padding: 10px 20px;    background:#7a2f6a; color:white; margin: 10px 0 0 0;">FAQ's &#9662;</button>
+                <a target="_blank" href="Hackathon_Topics/index.html"><button class="topic-button"> Browse Topics </button></a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdETmbKKM2Iu2YrjvyiOlO_O3QC4w7HIPj8tP80nw-dBYqUqA/viewform">
+                    <button class="register-button"> Register </button> </a> 
+
+                <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo" style="width:200px; height: 50px; padding: 10px 20px;    background:#7a2f6a; color:white;    border:none;    border-radius:0; margin: 20px 0 20px 0px;">FAQ's &#9662;</button>
               <div id="demo" class="collapse">
                 <h4>1. What is Ingenious Hackathon?</h4>    
                 <p>Ingenious is an initiative by some nerdy noobs at School of Engineering and Applied Sciences, Ahmedabad University. We want you in the limelight, while we manage the light and the technicalities. We want you to come and build & code. We provide everything else (Not transportation).</p>
@@ -478,40 +470,52 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                 <p>2nd and 3rd March, 2018</p>
                 <h4>4. What is the team size?</h4>
                 <p>2-4 people. Lone-wolves strictly not allowed.</p>
-                <h4>5. How does the selection process work?</h4>
-                <p>Provide us your idea abstract. Give us your GitHub and LinkedIn profiles. The mentors from the companies will go through your abstracts while we stalk your tech-profile. The mentors and the organizers will get together to select the participants.</p>
-                <h4>6. What should I bring?</h4>
+                <!-- <h4>5. How does the selection process work?</h4>
+                <p>Provide us your idea abstract. Give us your GitHub and LinkedIn profiles. The mentors from the companies will go through your abstracts while we stalk your tech-profile. The mentors and the organizers will get together to select the participants.</p> -->
+                <h4>5. What should I bring?</h4>
                 <p>A valid government issued photo ID and/or your college issued photo ID, laptop, phone, chargers and your favorite blanket. (we'll be providing mattresses).</p>
-                <h4>7. What shouldn’t I bring?</h4>
+                <h4>6. What shouldn’t I bring?</h4>
                 <p>Drugs, Alcohol or any sort of weapons that can injure or are in any way harmful or addictive. If you are unsure, please ask us.</p>
-                <h4>8. How does judging work?</h4>
+                <h4>7. How does judging work?</h4>
                 <p>The companies will provide their juries who will judge the projects in the respective fields based on the development of the project during the 36 hours as well as a 10-minute presentation after the Ingenious Hackathon time finishes.</p>
-                <h4>9. Can I start working on the Hack beforehand?</h4>
+                <h4>8. Can I start working on the Hack beforehand?</h4>
                 <p>A strict No. The entire development of the project must begin and end during the time of the Ingenious Hackathon.</p>
-                <h4>10. Where to find the guidelines and timeline for Hackathon?</h4>
+                <h4>9. Where to find the guidelines and timeline for Hackathon?</h4>
                 <p>It is available in the more details part of this page.</p>
               </div>
         </section>
 
-           
+            <section>
+                         
+            </section>
             <style type="text/css">
                 .register-button
                 {
+                    width: 200px;
+                    height: 50px;
+                    /*position: fixed;*/
                     padding: 10px 20px;
                     background:#7a2f6a;
                     color:white;
                     border:none;
-                    /* border-radius:10px; */
-                    margin: 5px 10px 0 800px;
+                    /*border-radius:10px;*/
+                    margin: 10px 20px 0 0;
+                 
+                   
                 }
                 .topic-button
                 {
+                    width: 200px;
+                    height: 50px;
+                    /*position: fixed;*/
                     padding: 10px 20px;
                     background:#7a2f6a;
                     color:white;
                     border:none;
-                    /* border-radius:10px; */
-                    margin: 5px 0 0 0;
+                    /*border-radius:10px;*/
+             
+                    /*margin: 5px 0 20px 0;*/
+                    margin: 10px 20px 0 0;
                 }
             </style>
 
@@ -688,15 +692,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     var c = document.body.className;
     c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
     document.body.className = c;
-    var au = document.getElementById('AU');
-    if(au.offsetTop <= window.pageYOffset)
-    {
-        au.style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white  display : none;";
-    }
-    else
-    {
-        au.style = "position: absolute; z-index: 999; width: 100%; float: left; background-color: white; display : block; ";
-    }
 </script>
 <link rel='stylesheet' id='animate-css-css'  href='../../wp-content/plugins/js_composer/assets/lib/bower/animate-css/animate.min4245.css?ver=5.5.2' type='text/css' media='all' />
 <link rel='stylesheet' id='vc_tta_style-css'  href='../../wp-content/plugins/js_composer/assets/css/js_composer_tta.min4245.css?ver=5.5.2' type='text/css' media='all' />
@@ -736,6 +731,18 @@ var wc_cart_fragments_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/adm
 <script type='text/javascript' src='../../wp-content/themes/ingenium/assets/js/wavesurfer.min.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/ingenium/assets/js/anime.min.js'></script>
 <script type='text/javascript' src='../../wp-content/themes/ingenium/assets/js/custom.js'></script>
+<script type="text/javascript">
+    var au = document.getElementById('AU');
+    if(au.offsetTop <= window.pageYOffset)
+    {
+        au.style="position: absolute; z-index: 999; width: 100%; float: left; background-color: white  display : none;";
+    }
+    else
+    {
+        au.style = "position: absolute; z-index: 999; width: 100%; float: left; background-color: white; display : block; ";
+    }    
+</script>
+
 <script type='text/javascript'>
 
             //Particles animation for page 
