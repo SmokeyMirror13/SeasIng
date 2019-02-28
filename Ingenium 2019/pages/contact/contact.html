@@ -389,21 +389,90 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     position: relative;
     display: block;
 }
-.mySlides{
+.mySlides .outer{
     max-width: 95%;
     display: grid;
     height: auto;
     margin: 10px auto 20px;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     grid-template-rows: auto 1fr auto;
     grid-gap: 20px;
 }
+.mySlides:nth-child(1) .outer{
+    grid-template-columns: 450px 450px;
+}
+.mySlides:nth-child(2) .outer{
+    grid-template-columns: 333px 333px 333px;
+}
+.mySlides:nth-child(3) .outer{
+    grid-template-columns: 333px 333px 333px;
+}
+.mySlides:nth-child(4) .outer{
+    grid-template-columns: 450px 450px;
+}
+.mySlides:nth-child(5) .outer{
+    grid-template-columns: 450px 450px;
+}
+.mySlides:nth-child(6) .outer{
+    grid-template-columns: 450px 450px;
+}
+.mySlides:nth-child(7) .outer{
+    grid-template-columns: 333px 333px 333px;
+}
+.mySlides:nth-child(8) .outer{
+    grid-template-columns: 333px 333px 333px;
+}
+.mySlides:nth-child(9) .outer{
+    grid-template-columns: 333px 333px 333px;
+}
+.mySlides:nth-child(10) .outer{
+    grid-template-columns: 450px 450px;
+}
+.mySlides:nth-child(11) .outer{
+    grid-template-columns: 333px 333px 333px;
+}
+.mySlides:nth-child(12) .outer{
+    grid-template-columns: 333px 333px 333px;
+}
 @media only screen and (max-width: 480px){
-    .mySlides{
+    .mySlides:nth-child(7) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(1) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(2) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(3) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(4) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(5) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .mySlides:nth-child(6) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(8) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(9) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(10) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(11) .outer{
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+    .mySlides:nth-child(12) .outer{
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
 }
-.container-1 .mySlides .card{
+ .mySlides .outer .card{
     position: relative;
     width: 300px;
     height: 340px;
@@ -414,14 +483,14 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     border-style: none;
     transition: 0.5s;
 }
-.container-1 .mySlides .card .img-box img{
+ .mySlides .outer .card .img-box img{
     height: 100%;
 }
-.container-1 .mySlides .card:hover{
+ .mySlides .outer .card:hover{
     transform: translateY(-20px);
     box-shadow: 0 20px 20px rgba(0,0,0,0.2);
 }
-.container-1 .mySlides .card .img-box{
+ .mySlides .outer .card .img-box{
     position: block;
     top : 0;
     bottom: 0;
@@ -435,13 +504,13 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 .container-1 .mySlides .card:hover{
     filter: grayscale(0%);
 } */
-.container-1 .mySlides .card:hover .img-box{
+ .mySlides .card:hover .img-box{
     /*opacity: 0.5;*/
 }
-.container-1 .mySlides .card .img-box img{
+ .mySlides .outer .card .img-box img{
     width: 100%;
 }
-.container-1 .mySlides .card .content-1{
+ .mySlides .outer .card .content-1{
     position: absolute;
     width: 100%;
     height: 50%;
@@ -450,61 +519,130 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
     box-sizing: border-box;
     text-align: center;
 }
-.container-1 .mySlides .card:hover .content-1{
+ .mySlides .outer .card:hover .content-1{
     bottom: 0;
 }
-.container-1 .mySlides:nth-child(1) .card:nth-child(1) .content-1{
+ .mySlides:nth-child(1) .outer .card:nth-child(1) .content-1{
     background: linear-gradient(0deg, #1e295f, transparent);
 }
-.container-1 .mySlides:nth-child(1) .card:nth-child(2) .content-1{
-    background: linear-gradient(0deg, #455014, transparent);
+ .mySlides:nth-child(1) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #151b27, transparent);
 }
-.container-1 .mySlides:nth-child(1) .card:nth-child(3) .content-1{
+ .mySlides:nth-child(1) .outer .card:nth-child(3) .content-1{
     background: linear-gradient(0deg, #222325, transparent);
 }
-.container-1 .mySlides:nth-child(2) .card:nth-child(1) .content-1{
-    background: linear-gradient(0deg, #4e72, transparent);
+ .mySlides:nth-child(2) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #4b6250, transparent);
 }
-.container-1 .mySlides:nth-child(2) .card:nth-child(2) .content-1{
-    background: linear-gradient(0deg, #3f48, transparent);
+ .mySlides:nth-child(2) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #3d3147, transparent);
 }
-.container-1 .mySlides:nth-child(2) .card:nth-child(3) .content-1{
-    background: linear-gradient(0deg, #2223, transparent);
+ .mySlides:nth-child(2) .outer .card:nth-child(3) .content-1{
+    background: linear-gradient(0deg, #cdaa56, transparent);
 }
-.container-1 .mySlides:nth-child(3) .card:nth-child(1) .content-1{
-    background: linear-gradient(0deg, #4e7123, transparent);
+ .mySlides:nth-child(3) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #3d4144, transparent);
 }
-.container-1 .mySlides:nth-child(3) .card:nth-child(2) .content-1{
-    background: linear-gradient(0deg, #3f4, transparent);
+ .mySlides:nth-child(3) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #d6cea9, transparent);
 }
-.container-1 .mySlides:nth-child(3) .card:nth-child(3) .content-1{
-    background: linear-gradient(0deg, #222, transparent);
+ .mySlides:nth-child(3) .outer .card:nth-child(3) .content-1{
+    background: linear-gradient(0deg, #958474, transparent);
 }
-.container-1 .mySlides .card:hover .content-1{
+.mySlides:nth-child(4) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #bebebe, transparent);
+}
+ .mySlides:nth-child(4) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #8ba068, transparent);
+}
+.mySlides:nth-child(5) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #414141, transparent);
+}
+ .mySlides:nth-child(5) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #6da9aa, transparent);
+}
+.mySlides:nth-child(6) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #57a0d3, transparent);
+}
+ .mySlides:nth-child(6) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #4a5b91, transparent);
+}
+.mySlides:nth-child(7) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #101010, transparent);
+}
+ .mySlides:nth-child(7) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #c0c5c8, transparent);
+}
+ .mySlides:nth-child(7) .outer .card:nth-child(3) .content-1{
+    background: linear-gradient(0deg, #171017, transparent);
+}
+.mySlides:nth-child(8) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #98b972, transparent);
+}
+ .mySlides:nth-child(8) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #141a26, transparent);
+}
+ .mySlides:nth-child(8) .outer .card:nth-child(3) .content-1{
+    background: linear-gradient(0deg, #52822c, transparent);
+}
+.mySlides:nth-child(9) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #4c355f, transparent);
+}
+ .mySlides:nth-child(9) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #997253, transparent);
+}
+ .mySlides:nth-child(9) .outer .card:nth-child(3) .content-1{
+    background: linear-gradient(0deg, #171624, transparent);
+}
+.mySlides:nth-child(10) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #282826, transparent);
+}
+ .mySlides:nth-child(10) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #5285d6, transparent);
+}
+.mySlides:nth-child(11) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #e28a96, transparent);
+}
+ .mySlides:nth-child(11) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #764e35, transparent);
+}
+ .mySlides:nth-child(11) .outer .card:nth-child(3) .content-1{
+    background: linear-gradient(0deg, #6f261d, transparent);
+}
+.mySlides:nth-child(12) .outer .card:nth-child(1) .content-1{
+    background: linear-gradient(0deg, #202028, transparent);
+}
+ .mySlides:nth-child(12) .outer .card:nth-child(2) .content-1{
+    background: linear-gradient(0deg, #3c3839, transparent);
+}
+ .mySlides:nth-child(12) .outer .card:nth-child(3) .content-1{
+    background: linear-gradient(0deg, #bfa954   , transparent);
+}
+ .mySlides .outer .card:hover .content-1{
     bottom: 0;
     transition: 0.5s;
 }
-.container-1 .mySlides .card .content-1 h2 {
+ .mySlides .outer .card .content-1 h2 {
     margin: 0 0 0.976%;
     color: #fff;
     font-size: 20px;
 }
-.container-1 .mySlides .card .content-1 h2 span {
+ .mySlides .outer .card .content-1 h2 span {
     color: #fff;
     font-size: 20px;
 }
-.container-1 .mySlides .card .content-1 ul li span{
+ .mySlides .outer .card .content-1 ul li span{
     color: #fff;
     font-size: 15px;
 }
-.container-1 .mySlides .card li{
+ .mySlides .outer .card li{
     display: flex;
     margin: 1.95% 4.88% 0 0;
     padding: 0;
     align-items: center;
     justify-content: center;
 }
-.container-1 .mySlides .card li ul{
+ .mySlides .outer .card li ul{
     list-style: none;
 }
 
@@ -524,7 +662,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 50%;
   width: auto;
   margin-top: -22px;
@@ -550,11 +688,12 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 }
 </style>
 
-<b><h3 class="center" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Commitee Head</h3></b>
-    <div class="container-1"  align="center">
-
-            <div class="mySlides">
-                    <div class="card ">
+<!-- <b><h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">ICT Management</h3></b> -->
+<div class="container-1"  align="center">
+    <div class="mySlides">
+            <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Commitee Head</h3>
+            <div class="outer">        
+            <div class="card ">
                     <div class="img-box">
                         <img src="img/Raj.jpg" width="310px" height="440px">
                         </div>
@@ -562,9 +701,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         <h2>Raj Shah<br><span>+91-9512818182</span></h2>
                           <ul>
                           <li><a href="mailto:raj.s.btechi16@ahduni.edu.in"><span>raj.s.btechi16@ahduni.edu.in</span></a></li>
-                          <li>
-
-                          </li>
                           </ul>
                         </div>
                     </div>
@@ -581,30 +717,404 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
                         </div>
                         </div>
                     </div>
-<!--
-                    <div class="extraSpacing" style="height: 80px;">
-                    </div>
+                </div>
 
-                            <p class="prev" onclick="plusSlides(-1)"><font color="white"><i class="fas fa-angle-left"></i></font></p>
-                  <p class="next" onclick="plusSlides(1)"><font color="white"><i class="fas fa-angle-right"></i></p> -->
+                    <div class="mySlides">
+                            <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">ICT Management</h3>
+                        <div class="outer">
+                            <div class="card ">
+                        <div class="img-box">
+                            <img src="img/Committee Members/Aashka Parikh.jpg" width="310px" height="440px">
+                            </div>
+                          <div class="content-1">
+                            <h2>Aashka Parikh<br><span>+91-9825414172</span></h2>
+                              <ul>
+                              <li><a href="mailto:aashka.p.btechi16@ahduni.edu.in"><span>aashka.p.btechi16@ahduni.edu.in</span></a></li>
+                              </ul>
+                            </div>
                         </div>
-
-                        <!-- <div class="extraSpacing" style="height: 30px;"></div> -->
-
-                        <!-- For Text -->
-                        <!-- <div class="event_position" style="width: auto; height: auto; float: left; margin: 0; ">
-                            <center><b><h1 style="color: black; font-family: Montserrat; padding: 0 0 0px 0; margin: 0 0 0 450px;">Event Head:</h1>
-                            </b>
-                            </center> -->
-                            <!-- <div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_border_width_2 vc_sep_pos_align_center vc_separator_no_text vc_sep_color_grey  conference-line" style="margin: 0 0 0 500px;">
-                            <span class="vc_sep_holder vc_sep_holder_l">
-                                <span  class="vc_sep_line"></span></span>
-                                <span class="vc_sep_holder vc_sep_holder_r" ><span  class="vc_sep_line"></span></span>
-                            </div> -->
-
-                    <!-- <div class="extraSpacing" style="height: 80px;">                       -->
-                    </div>
-
+    
+                        <div class="card ">
+                        <div class="img-box">
+                            <img src="img/Committee Members/Neel Patel.jpg" width="310px" height="440px">
+                            </div>
+                          <div class="content-1">
+                            <h2>Neel Patel<br><span>+91-8401922133</span></h2>
+                              <ul>
+                              <li><a href="mailto:neel.p.btechi16@ahduni.edu.in"><span>neel.p.btechi16@ahduni.edu.in</span></a></li>
+                              </ul>
+                            </div>
+                            </div>
+                        
+                        <div class="card ">
+                                <div class="img-box">
+                                    <img src="img/Committee Members/Nisarg Shah.jpg" width="310px" height="440px">
+                                    </div>
+                                  <div class="content-1">
+                                    <h2>Nisarg Shah<br><span>+91-9427454248</span></h2>
+                                      <ul>
+                                      <li><a href="mailto:nisarg.s1@ahduni.edu.in"><span>nisarg.s1@ahduni.edu.in</span></a></li>
+                                      </ul>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="mySlides">
+                                        <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Mechanical Management</h3>
+                                    <div class="outer">
+                                        <div class="card ">
+                                    <div class="img-box">
+                                        <img src="img/Committee Members/Devashish Patel.jpg" width="310px" height="440px">
+                                        </div>
+                                      <div class="content-1">
+                                        <h2>Devashish Patel<br><span>+91-8511150180</span></h2>
+                                          <ul>
+                                          <li><a href="mailto:devashish.p.btechm16@ahduni.edu.in"><span>devashish.p.btechm16@ahduni.edu.in</span></a></li>
+                                          </ul>
+                                        </div>
+                                    </div>
+                
+                                    <div class="card ">
+                                    <div class="img-box">
+                                        <img src="img/Committee Members/Jainam Shah.jpg" width="310px" height="440px">
+                                        </div>
+                                      <div class="content-1">
+                                        <h2>Jainam Shah<br><span>+91-8469975929</span></h2>
+                                          <ul>
+                                          <li><a href="mailto:jainam.s@ahduni.edu.in"><span>jainam.s@ahduni.edu.in</span></a></li>
+                                          </ul>
+                                        </div>
+                                        </div>
+                                    
+                                    <div class="card ">
+                                            <div class="img-box">
+                                                <img src="img/Committee Members/Maharshi_Desai_Mech.jpg" width="310px" height="440px">
+                                                </div>
+                                              <div class="content-1">
+                                                <h2>Maharshi Desai<br><span>+91-7201887825</span></h2>
+                                                  <ul>
+                                                  <li><a href="mailto:maharshi.d@ahduni.edu.in"><span>maharshi.d@ahduni.edu.in</span></a></li>
+                                                  </ul>
+                                                </div>
+                                                </div>
+                                            </div>
+                            </div>
+                            <div class="mySlides">
+                                    <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Chemical Management</h3>
+                                    <div class="outer">        
+                                    <div class="card ">
+                                            <div class="img-box">
+                                                <img src="img/Committee Members/Drashti_Shah.jpg" width="310px" height="440px">
+                                                </div>
+                                              <div class="content-1">
+                                                <h2>Drashti Shah<br><span>+91-8320963591</span></h2>
+                                                  <ul>
+                                                  <li><a href="mailto:drashti.s1@ahduni.edu.in"><span>drashti.s1@ahduni.edu.in</span></a></li>
+                                                  </ul>
+                                                </div>
+                                            </div>
+                        
+                                            <div class="card ">
+                                            <div class="img-box">
+                                                <img src="img/Committee Members/Manthan_2nd year_chem.png" width="310px" height="440px">
+                                                </div>
+                                              <div class="content-1">
+                                                <h2>Manthan Shah<br><span>+91-7622897692</span></h2>
+                                                  <ul>
+                                                  <li><a href="mailto:manthan.s@ahduni.edu.in"><span>manthan.s@ahduni.edu.in</span></a></li>
+                                                  </ul>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mySlides">
+                                                <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Secretary & Treasurer</h3>
+                                                <div class="outer">        
+                                                <div class="card ">
+                                                        <div class="img-box">
+                                                            <img src="img/Committee Members/Shivang Gohil.jpg" width="310px" height="440px">
+                                                            </div>
+                                                          <div class="content-1">
+                                                            <h2>Shivang Gohil<br><span>+91-9726474933</span></h2>
+                                                              <ul>
+                                                              <li><a href="mailto:shivang.g@ahduni.edu.in"><span>shivang.g@ahduni.edu.in</span></a></li>
+                                                              </ul>
+                                                            </div>
+                                                        </div>
+                                    
+                                                        <div class="card ">
+                                                        <div class="img-box">
+                                                            <img src="img/Committee Members/Dhyey_3rdYear_ICT.jpg" width="310px" height="440px">
+                                                            </div>
+                                                          <div class="content-1">
+                                                            <h2>Dhyey Bhansali<br><span>+91-8460678485</span></h2>
+                                                              <ul>
+                                                              <li><a href="mailto:dhyey.b.btechi16@ahduni.edu.in"><span>dhyey.b.btechi16@ahduni.edu.in</span></a></li>
+                                                              </ul>
+                                                            </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="mySlides">
+                                                            <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Content Writers</h3>
+                                                            <div class="outer">        
+                                                            <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Param Raval.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Param Raval<br><span>+91-8734073634</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:param.r@ahduni.edu.in"><span>param.r@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                    </div>
+                                                
+                                                                    <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Taha_Zanzibarwala.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Taha Zanzibarwala<br><span>+91-8141045937</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:taha.z.bechi16@ahduni.edu.in"><span>taha.z.bechi16@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mySlides">
+                                                                        <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Web team</h3>
+                                                                    <div class="outer">
+                                                                        <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Manav Shah.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Manav Shah<br><span>+91-7046373050</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:manav.s@ahduni.edu.in"><span>manav.s@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                    </div>
+                                                
+                                                                    <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Aman Dave.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Aman Dave<br><span>+91-9825030355</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:aman.d@ahduni.edu.in"><span>aman.d@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                        </div>
+                                                                    
+                                                                    <div class="card ">
+                                                                            <div class="img-box">
+                                                                                <img src="img/Committee Members/Kruti Yadav.jpg" width="310px" height="440px">
+                                                                                </div>
+                                                                              <div class="content-1">
+                                                                                <h2>Kruti Yadav<br><span>+91-9687178442</span></h2>
+                                                                                  <ul>
+                                                                                  <li><a href="mailto:kruti.y@ahduni.edu.in"><span>kruti.y@ahduni.edu.in</span></a></li>
+                                                                                  </ul>
+                                                                                </div>
+                                                                                </div>
+                                                                            </div>
+                                                            </div>
+                                                            <div class="mySlides">
+                                                                    <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Design team</h3>
+                                                                <div class="outer">
+                                                                    <div class="card ">
+                                                                <div class="img-box">
+                                                                    <img src="img/Committee Members/Bajak Prashant.jpg" width="310px" height="440px">
+                                                                    </div>
+                                                                  <div class="content-1">
+                                                                    <h2>Prashant Bajak<br><span>+91-9427481798</span></h2>
+                                                                      <ul>
+                                                                      <li><a href="mailto:prashant.b.btechi16@ahduni.edu.in"><span>prashant.b.btechi16@ahduni.edu.in</span></a></li>
+                                                                      </ul>
+                                                                    </div>
+                                                                </div>
+                                            
+                                                                <div class="card ">
+                                                                <div class="img-box">
+                                                                    <img src="img/Committee Members/Arya Gohil.jpg" width="310px" height="440px">
+                                                                    </div>
+                                                                  <div class="content-1">
+                                                                    <h2>Aarya Gohil<br><span>+91-7490020841</span></h2>
+                                                                      <ul>
+                                                                      <li><a href="mailto:aarya.g@ahduni.edu.in"><span>aarya.g@ahduni.edu.in</span></a></li>
+                                                                      </ul>
+                                                                    </div>
+                                                                    </div>
+                                                                
+                                                                <div class="card ">
+                                                                        <div class="img-box">
+                                                                            <img src="img/Committee Members/Maharsh Suryawala.jpg" width="310px" height="440px">
+                                                                            </div>
+                                                                          <div class="content-1">
+                                                                            <h2>Maharsh Suryawala<br><span>+91-9558052021</span></h2>
+                                                                              <ul>
+                                                                              <li><a href="mailto:maharsh.s.btechi16@ahduni.edu.in"><span>maharsh.s.btechi16@ahduni.edu.in</span></a></li>
+                                                                              </ul>
+                                                                            </div>
+                                                                            </div>
+                                                                        </div>
+                                                        </div>
+                                                        <div class="mySlides">
+                                                                <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Marketing</h3>
+                                                            <div class="outer">
+                                                                <div class="card ">
+                                                            <div class="img-box">
+                                                                <img src="img/Committee Members/Mohit Vaswani.jpg" width="310px" height="440px">
+                                                                </div>
+                                                              <div class="content-1">
+                                                                <h2>Mohit Vaswani<br><span>+91-8758302830</span></h2>
+                                                                  <ul>
+                                                                  <li><a href="mailto:mohit.v@ahduni.edu.in"><span>mohit.v@ahduni.edu.in</span></a></li>
+                                                                  </ul>
+                                                                </div>
+                                                            </div>
+                                        
+                                                            <div class="card ">
+                                                            <div class="img-box">
+                                                                <img src="img/Committee Members/Chaitya Sanghavi.jpg" width="310px" height="440px">
+                                                                </div>
+                                                              <div class="content-1">
+                                                                <h2>Chaitya Sanghavi<br><span>+91-8000721333</span></h2>
+                                                                  <ul>
+                                                                  <li><a href="mailto:chaitya.s.btechi16@ahduni.edu.in"><span>chaitya.s.btechi16@ahduni.edu.in</span></a></li>
+                                                                  </ul>
+                                                                </div>
+                                                                </div>
+                                                            
+                                                            <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/MeetModi.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Meet Modi<br><span>+91-8732970762</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:meet.m@ahduni.edu.in"><span>meet.m@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
+                                                    </div>  
+                                                    <div class="mySlides">
+                                                            <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Registrations</h3>
+                                                            <div class="outer">        
+                                                            <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Jaydeep Modi.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Jaydeep Modi<br><span>+91-9773058673</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:jaydeep.m@ahduni.edu.in"><span>jaydeep.m@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                    </div>
+                                                
+                                                                    <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Manav Darji.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Manav Darji<br><span>+91-9825864164</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:manav.d@ahduni.edu.in"><span>manav.d@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="mySlides">
+                                                                        <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Show Management</h3>
+                                                                    <div class="outer">
+                                                                        <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Shivansh.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Shivansh Nautiyal<br><span>+91-8156002562</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto:shivansh.n@ahduni.edu.in"><span>shivansh.n@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                    </div>
+                                                
+                                                                    <div class="card ">
+                                                                    <div class="img-box">
+                                                                        <img src="img/Committee Members/Nimil Shah.jpg" width="310px" height="440px">
+                                                                        </div>
+                                                                      <div class="content-1">
+                                                                        <h2>Nimil Shah<br><span>+91-8408144759</span></h2>
+                                                                          <ul>
+                                                                          <li><a href="mailto: nimil.s@ahduni.edu.in"><span>nimil.s@ahduni.edu.in</span></a></li>
+                                                                          </ul>
+                                                                        </div>
+                                                                        </div>
+                                                                    
+                                                                    <div class="card ">
+                                                                            <div class="img-box">
+                                                                                <img src="img/Committee Members/ShantanuxShethxx1x (2).jpg" width="310px" height="440px">
+                                                                                </div>
+                                                                              <div class="content-1">
+                                                                                <h2>Shantanu Sheth<br><span>+91-9106715933</span></h2>
+                                                                                  <ul>
+                                                                                  <li><a href="mailto:shantanu.s@ahduni.edu.in"><span>shantanu.s@ahduni.edu.in</span></a></li>
+                                                                                  </ul>
+                                                                                </div>
+                                                                                </div>
+                                                                            </div>
+                                                            </div> 
+                                                            <div class="mySlides">
+                                                                    <h3 class="center" id="head" style="text-align: center; padding: 10px 0;font-family:Montserrat, Helvetica, Arial, sans-serif; font-size: 25px;">Logistics</h3>
+                                                                <div class="outer">
+                                                                    <div class="card ">
+                                                                <div class="img-box">
+                                                                    <img src="img/Committee Members/Parthav Shah.jpg" width="310px" height="440px">
+                                                                    </div>
+                                                                  <div class="content-1">
+                                                                    <h2>Parthav Shah<br><span>+91-7359399939</span></h2>
+                                                                      <ul>
+                                                                      <li><a href="mailto:parthav.s@ahduni.edu.in"><span>parthav.s@ahduni.edu.in</span></a></li>
+                                                                      </ul>
+                                                                    </div>
+                                                                </div>
+                                            
+                                                                <div class="card ">
+                                                                <div class="img-box">
+                                                                    <img src="img/Committee Members/Nimil Bakriwala.jpg" width="310px" height="440px">
+                                                                    </div>
+                                                                  <div class="content-1">
+                                                                    <h2>Nimil Bakriwala<br><span>+91-9601334262</span></h2>
+                                                                      <ul>
+                                                                      <li><a href="mailto: nimil.b@ahduni.edu.in"><span>nimil.b@ahduni.edu.in</span></a></li>
+                                                                      </ul>
+                                                                    </div>
+                                                                    </div>
+                                                                
+                                                                <div class="card ">
+                                                                        <div class="img-box">
+                                                                            <img src="img/Committee Members/Dhruval_2ndYear_Mech.jpg" width="310px" height="440px">
+                                                                            </div>
+                                                                          <div class="content-1">
+                                                                            <h2>Dhruval Mehta<br><span>+91-9409520509</span></h2>
+                                                                              <ul>
+                                                                              <li><a href="mailto:dhruval.m@ahduni.edu.in"><span>dhruval.m@ahduni.edu.in</span></a></li>
+                                                                              </ul>
+                                                                            </div>
+                                                                            </div>
+                                                                        </div>
+                                                        </div> 
+                    <p class="prev" onclick="plusSlides(-1)"><i class="fas fa-angle-left"></i></p>
+                    <p class="next" onclick="plusSlides(1)"><i class="fas fa-angle-right"></i></p>
+                        </div>
+                    
    <script>
     var slideIndex = 1;
 showSlides(slideIndex);
@@ -619,11 +1129,14 @@ function plusSlides(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  var head1 = document.getElementById("head");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
+    //   head1[i].style.display = "none";
   }
+//   head1[slideIndex-1].style.display = "block";
   slides[slideIndex-1].style.display = "grid";
   var au = document.getElementById('AU');
     if(au.offsetTop <= window.pageYOffset)

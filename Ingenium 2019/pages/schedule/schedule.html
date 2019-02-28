@@ -301,6 +301,126 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
 </script>
 <script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min4c8b.js?ver=3.4.5'></script>
 <script type='text/javascript' src='../../wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart4245.js?ver=5.5.2'></script>
+
+<!-- 
+    SCHEDULE
+    --->
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+<style type="text/css">
+    
+.timeline-tab
+{
+    overflow: hidden;
+}
+.timeline-tab button{
+    
+    border: 1px solid #767676;
+    font-size: 20px;
+    padding: 20px;
+    background: #004e92;
+    color: #fff;
+    outline: none;
+}
+
+.timeline-tab button.active{
+    background:white;
+}
+
+.tg-sectionspace{padding: 40px 0;}
+
+.tg-aboutus{
+    width:100%;
+    float:left;
+}
+.tg-aboutus .tg-textshortcode{}
+.tg-aboutus 
+.tg-aboutus .tg-sectionheading:before{
+    left:0;
+    margin:0;
+}
+
+.timeline-content{
+    padding: 20px 40px;
+}
+
+.timeline-date{
+    color: #444349;
+    padding: 0 0 0 6px;
+    font-size: 20px;
+    border-left: 3px solid #7a2f6a;
+}
+.timeline-div-1{
+    padding: 20px 10px;
+    background-color: white;
+    border: 1px solid #7a2f6a;
+}
+.timeline-div-2{
+    padding: 20px 10px;
+    background: #7a2f6a;
+    color: white;
+}
+.timeline-div-2 h2 ,.timeline-div-2 p{
+    color: white!important;
+}
+
+.timeline-tab button.active{
+    
+    background: white;
+    outline: none;
+    border: hidden;
+}
+
+.timeline-inline{
+    display: inline;
+}
+
+.timeline-icon{
+    padding: 0 15px;
+}
+
+.tg-events{
+    padding: 15px;
+}
+
+.timeline-event{
+    padding: 15px 15px 0 15px;
+}
+
+
+
+</style>
+    <script>
+        function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+
+        // Get the element with id="defaultOpen" and click on it
+        document.getElementById("defaultOpen").click();
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/button.css">
+    <link rel="stylesheet" type="text/css" href="../timeline/timeline.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+
+
+
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc0db0.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 4.9.5" />
@@ -373,21 +493,532 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
          <article id="post-798" class="post-798 page type-page status-publish hentry">
       <div class="entry-content"  >
 
-<h1> COMING SOON</h1>
+
+<div class="container"> 
+            <div class="main">
+              <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="timeline-tab" style="padding-top:10px">
+                                  <button class="tablinks" style="background-color: #7a2f6a" onclick="openCity(event, 'Day1')" id="defaultOpen">Day 1</button>
+                                  <button class="tablinks" style="background-color: #7a2f6a" onclick="openCity(event, 'Day2')">Day 2</button>
+                                  <button class="tablinks" style="background-color: #7a2f6a" onclick="openCity(event, 'Day3')">Day 3</button>
+                                </div>
+                                
+                                
+                                
+                                <div id="Day1" class="tabcontent">
+
+                                    <div class="timeline-content">
+
+                                        <br/>
+
+                                        <div class="timeline-date"><h2> Friday, 15th March</h2></div>
+
+                                        <br/>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">08:00am - 4:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 116</p>
+                                            <div class="timeline-event">
+                                                <h2>IoT Auction</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">08:00am - 12:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Courtyard</p>
+                                            <div class="timeline-event">
+                                                <h2>CAD & Create</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">08:00am - 12:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Airport</p>
+                                            <div class="timeline-event">
+                                                <h2>Chemo-O-Car</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">12:00pm - 4:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Airport</p>
+                                            <div class="timeline-event">
+                                                <h2>Construct-O-Mania</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">1:00pm - 4:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 106</p>
+                                            <div class="timeline-event">
+                                                <h2>Quiz-O-Mania</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">4:00pm - 5:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Auditorium</p>
+                                            <div class="timeline-event">
+                                                <h2>TALK 1 (TBD)</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">5:00pm - 10:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 215 and 216</p>
+                                            <div class="timeline-event">
+                                                <h2>FIFA</h2>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                
+                                <div id="Day2" class="tabcontent"  style="display: none;">
+                                    <div class="timeline-content">
+                                        
+                                        <br/>
+                                        <div class="timeline-date"><h2> Saturday, 16th March</h2></div>
+                                        <br/>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">09:00am - 12:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 107</p>
+                                            <div class="timeline-event">
+                                                <h2>Does Gray Matter?</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">08:00am - 12:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Courtyard</p>
+                                            <div class="timeline-event">
+                                                <h2>Robo-Race</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">08:00am - 11:00am</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 106</p>
+                                            <div class="timeline-event">
+                                                <h2>Need For Solution</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">12:00pm - 03:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Chem Lab</p>
+                                            <div class="timeline-event">
+                                                <h2>Make it Up</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">01:00pm - 04:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 215 & 216</p>
+                                            <div class="timeline-event">
+                                                <h2>Codefi</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">01:00pm - 04:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 315</p>
+                                            <div class="timeline-event">
+                                                <h2>Robopult</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">04:00pm - 5:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Auditorium</p>
+                                            <div class="timeline-event">
+                                                <h2>TALK 2 (TBD)</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">05:00pm - 10:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 215 & 216</p>
+                                            <div class="timeline-event">
+                                                <h2>PUBG</h2>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                                
+                                <div id="Day3" class="tabcontent" style="display: none;">
+                                    <div class="timeline-content">
+                                        <br/>
+                                        <div class="timeline-date"><h2> Sunday, 17th March</h2></div>
+                                        <br/>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">09:00am - 11:00am</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 215 & 216</p>
+                                            <div class="timeline-event">
+                                                <h2>CodeFeeder</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">09:00am - 12:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Courtyard</p>
+                                            <div class="timeline-event">
+                                                <h2>RoboWar</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">09:00am - 11:00am</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 008 & 009</p>
+                                            <div class="timeline-event">
+                                                <h2>Poster Presentation</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-2">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">12:00pm - 03:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, 215 & 216</p>
+                                            <div class="timeline-event">
+                                                <h2>CS : GO</h2>
+                                            </div>
+                                        </div>
+
+                                        <div class="timeline-div-1">
+                                            <i class="material-icons">calendar_today</i>
+                                            <p class="timeline-inline">05:00pm - 10:00pm</p>
+                                            <i class="material-icons">location_on</i>
+                                            <p class="timeline-inline">SEAS, Garden Lawn</p>
+                                            <div class="timeline-event">
+                                                <h2>Outdoor Events</h2>
+                                            </div>
+                                        </div>
+
+                                        
+                                    </div>
+                                </div>
+                                
+                                
+                            </div>
+                            
+                            
+                    </div>
+            </div><!--end main!-->
+    </div>
+    
 
 <!--
-<section data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section conference-schedule-list schedule-2-last-box vc_custom_1524457839900"><div class="vc_row wpb_row vc_row-fluid wpb_animate_when_almost_visible wpb_fadeIn fadeIn"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_tta-container" data-vc-action="collapse"><div class="vc_general vc_tta vc_tta-tabs vc_tta-color-grey vc_tta-style-classic vc_tta-shape-square vc_tta-spacing-1  schedule-table-container vc_tta-o-no-fill vc_tta-tabs-position-top vc_tta-controls-align-center"><div class="vc_tta-tabs-container"><ul class="vc_tta-tabs-list"><li class="vc_tta-tab vc_active" data-vc-tab><a href="#1517476768796-7baf9b53-ec50e24a-d5c75200-e9e7" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">15 Friday</span></a></li><li class="vc_tta-tab" data-vc-tab><a href="#1517476768824-261f42ab-0d0de24a-d5c75200-e9e7" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">16 Saturday</span></a></li><li class="vc_tta-tab" data-vc-tab><a href="#1521107955482-d5121f07-ccb0" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">17 Sunday</span></a></li></ul></div>
-<div class="vc_tta-panels-container"><div class="vc_tta-panels"><div class="vc_tta-panel vc_active" id="1517476768796-7baf9b53-ec50e24a-d5c75200-e9e7" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#1517476768796-7baf9b53-ec50e24a-d5c75200-e9e7" data-vc-accordion data-vc-container=".vc_tta-container"></div>
+<section data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section conference-schedule-list schedule-2-last-box vc_custom_1524457839900">
+    <div class="vc_row wpb_row vc_row-fluid wpb_animate_when_almost_visible wpb_fadeIn fadeIn">
+        <div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_tta-container" data-vc-action="collapse"><div class="vc_general vc_tta vc_tta-tabs vc_tta-color-grey vc_tta-style-classic vc_tta-shape-square vc_tta-spacing-1  schedule-table-container vc_tta-o-no-fill vc_tta-tabs-position-top vc_tta-controls-align-center">
+            
+            <div class="vc_tta-tabs-container">
+                <ul class="vc_tta-tabs-list">
+                    <li class="vc_tta-tab vc_active" data-vc-tab>
+                        <a href="#1517476768796-7baf9b53-ec50e24a-d5c75200-e9e7" data-vc-tabs data-vc-container=".vc_tta">
+                            <span class="vc_tta-title-text">10 Friday</span>
+                        </a></li>
+                    <li class="vc_tta-tab" data-vc-tab>
+                        <a href="#1517476768824-261f42ab-0d0de24a-d5c75200-e9e7" data-vc-tabs data-vc-container=".vc_tta">
+                            <span class="vc_tta-title-text">11 Saturday</span>
+                        </a></li>
+                                
+                    <li class="vc_tta-tab" data-vc-tab>
+                        <a href="#1521107955482-d5121f07-ccb0" data-vc-tabs data-vc-container=".vc_tta">
+                            <span class="vc_tta-title-text">12 Sunday</span>
+                        </a></li>
 
+                </ul>
+            </div>
+
+<div class="vc_tta-panels-container"><div class="vc_tta-panels"><div class="vc_tta-panel vc_active" id="1517476768796-7baf9b53-ec50e24a-d5c75200-e9e7" data-vc-content=".vc_tta-panel-body">
     
-<div class="vc_tta-panel-body"><div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex"><div class="conference-event-time wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading schedule-time" >10 AM</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Doors Open</h2><p style="text-align: left" class="vc_custom_heading" >Collect your welcome kit</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Nevada Kurtis</h2><p style="text-align: left" class="vc_custom_heading" >What is better design</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Sam Chester</h2><p style="text-align: left" class="vc_custom_heading" >Where is creativity</p></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex"><div class="conference-event-time wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading schedule-time" >10 AM</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Thomas Matt</h2><p style="text-align: left" class="vc_custom_heading" >Complexity behind creating deigns</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Henri Simon</h2><p style="text-align: left" class="vc_custom_heading" >Ideas of innovation in app</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Hari Kutcher </h2><p style="text-align: left" class="vc_custom_heading" >Why we should deliver at time<br />
-</p></div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex"><div class="conference-event-time wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading schedule-time" >12 AM</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Helan Mark</h2><p style="text-align: left" class="vc_custom_heading" >Complexity behind creating designs</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Antonio Gries</h2><p style="text-align: left" class="vc_custom_heading" >Anticipated User Experiences</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Calvin Memph</h2><p style="text-align: left" class="vc_custom_heading" >Designing for the premium</p></div></div></div></div></div></div><div class="vc_tta-panel" id="1517476768824-261f42ab-0d0de24a-d5c75200-e9e7" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#1517476768824-261f42ab-0d0de24a-d5c75200-e9e7" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">11 Saturday</span></a></h4></div><div class="vc_tta-panel-body"><div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex"><div class="conference-event-time wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading schedule-time" >10 AM</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Thomas Matt</h2><p style="text-align: left" class="vc_custom_heading" >Complexity behind creating deigns</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Henri Simon</h2><p style="text-align: left" class="vc_custom_heading" >Ideas of innovation in app</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Hari Kutcher </h2><p style="text-align: left" class="vc_custom_heading" >Why we should deliver at time<br />
-</p></div></div></div></div></div></div><div class="vc_tta-panel" id="1521107955482-d5121f07-ccb0" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#1521107955482-d5121f07-ccb0" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">12 Sunday</span></a></h4></div><div class="vc_tta-panel-body"><div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex"><div class="conference-event-time wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading schedule-time" >10 AM</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Thomas Matt</h2><p style="text-align: left" class="vc_custom_heading" >Complexity behind creating deigns</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Henri Simon</h2><p style="text-align: left" class="vc_custom_heading" >Ideas of innovation in app</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Hari Kutcher </h2><p style="text-align: left" class="vc_custom_heading" >Why we should deliver at time<br />
-</p></div></div></div></div></div></div></div></div>
-</div></div></div></div></div></div></section>
--->
+    <div class="vc_tta-panel-heading">
+        <h4 class="vc_tta-panel-title">
+            <a href="#1517476768796-7baf9b53-ec50e24a-d5c75200-e9e7" data-vc-accordion data-vc-container=".vc_tta-container">
+                <span class="vc_tta-title-text">10 Friday</span>
+            </a>
+        </h4></div>
 
-<div class="vc_row-full-width vc_clearfix"></div>
+        <br/><br/>
+
+        <div class="vc_tta-panel-body" style="text-align: center">
+        <div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex">
+        
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >ICT </h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >MECH </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >CHEM</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >FUN</h2>
+                </div>
+            </div>
+        </div>
+
+    <div class="vc_tta-panel-body" style="text-align: center">
+        <div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex">
+        
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >IoT Auction</h2>
+                    <p style="text-align: center;" class="vc_custom_heading" >SEAS, 116</p>
+                    <h4 style="text-align: center;" class="vc_custom_heading schedule-time" >8 AM - 4 PM</h4>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >CAD & Create</h2>
+                    <p style="text-align: center;" class="vc_custom_heading" >SEAS, CourtYard</p>
+                    <h4 style="text-align: center;" class="vc_custom_heading schedule-time" >8 AM - 11 AM</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >Chemo-O-Car</h2>
+                    <p style="text-align: center;" class="vc_custom_heading" >SEAS, Airport</p>
+                    <h4 style="text-align: center;" class="vc_custom_heading schedule-time" >8 AM - 12 PM</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" ></h2>
+                    <p style="text-align: center;" class="vc_custom_heading" ></p>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+    <div class="vc_tta-panel-body" style="text-align: center">
+        <div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex">
+        
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >TALK 1 (TBA)</h2>
+                    <p style="text-align: center;" class="vc_custom_heading" >SEAS, Auditorium</p>
+                    <h4 style="text-align: center;" class="vc_custom_heading schedule-time" >4 PM - 5 PM</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="vc_tta-panel-body" style="text-align: center">
+        <div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex">
+        
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                </div>
+            </div>
+        </div>
+
+        <div class="wpb_column vc_column_container vc_col-sm-3">
+            <div class="vc_column-inner ">
+                <div class="wpb_wrapper">
+                    <h2 style="text-align: center;" class="vc_custom_heading" >FIFA</h2>
+                    <p style="text-align: center;" class="vc_custom_heading" >SEAS, 215 & 216</p>
+                    <h4 style="text-align: center;" class="vc_custom_heading schedule-time" >5 PM - 10 PM</h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex">
+    <div class="conference-event-time wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading schedule-time" >10 AM</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading" >Thomas Matt</h2>
+                <p style="text-align: left" class="vc_custom_heading" >Complexity behind creating deigns</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading" >Henri Simon</h2>
+                <p style="text-align: left" class="vc_custom_heading" >Ideas of innovation in app</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading" >Hari Kutcher </h2>
+                <p style="text-align: left" class="vc_custom_heading" >Why we should deliver at time<br /></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex">
+    <div class="conference-event-time wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading schedule-time" >12 AM</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading" >Helan Mark</h2>
+                <p style="text-align: left" class="vc_custom_heading" >Complexity behind creating designs</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading" >Antonio Gries</h2>
+                <p style="text-align: left" class="vc_custom_heading" >Anticipated User Experiences</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wpb_column vc_column_container vc_col-sm-3">
+        <div class="vc_column-inner ">
+            <div class="wpb_wrapper">
+                <h2 style="text-align: left" class="vc_custom_heading" >Calvin Memph</h2>
+                <p style="text-align: left" class="vc_custom_heading" >Designing for the premium</p>
+            </div>
+        </div>
+    </div>
+
+</div></div></div>
+
+
+<div class="vc_tta-panel" id="1517476768824-261f42ab-0d0de24a-d5c75200-e9e7" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#1517476768824-261f42ab-0d0de24a-d5c75200-e9e7" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">11 Saturday</span></a></h4></div><div class="vc_tta-panel-body"><div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex"><div class="conference-event-time wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading schedule-time" >10 AM</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Thomas Matt</h2><p style="text-align: left" class="vc_custom_heading" >Complexity behind creating deigns</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Henri Simon</h2><p style="text-align: left" class="vc_custom_heading" >Ideas of innovation in app</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Hari Kutcher </h2><p style="text-align: left" class="vc_custom_heading" >Why we should deliver at time<br />
+</p></div></div></div></div></div></div><div class="vc_tta-panel" id="1521107955482-d5121f07-ccb0" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#1521107955482-d5121f07-ccb0" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">12 Sunday</span></a></h4></div><div class="vc_tta-panel-body"><div class="vc_row wpb_row vc_inner vc_row-fluid schedule-table vc_column-gap-35 vc_row-o-content-middle vc_row-flex"><div class="conference-event-time wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading schedule-time" >10 AM</h2></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Thomas Matt</h2><p style="text-align: left" class="vc_custom_heading" >Complexity behind creating deigns</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Henri Simon</h2><p style="text-align: left" class="vc_custom_heading" >Ideas of innovation in app</p></div></div></div><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: left" class="vc_custom_heading" >Hari Kutcher </h2><p style="text-align: left" class="vc_custom_heading" >Why we should deliver at time<br />
+</p></div></div></div></div></div></div></div></div></div></div></div></div></div></div></section><div class="vc_row-full-width vc_clearfix"></div>
 
    </div>
    <!-- .entry-content -->
@@ -430,7 +1061,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/ingenium-conference\/wp-admin\/admin-
       </div>
    </div>
     </footer>
-	<a class="scrollup"><i class="fa fa-angle-up"></i></a>
+	<a style="background-color:#7a2f6a " class="scrollup"><i class="fa fa-angle-up"></i></a>
 <!-- #colophon -->
 </div><!-- #page -->
 	<script type="text/javascript">
